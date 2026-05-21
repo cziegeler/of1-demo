@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>McLaren P1™ 42172 | LEGO® Technic™ | Official LEGO® Shop US</title>
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --lego-yellow: #FFD500;
+  --lego-red: #D0021B;
+  --lego-blue: #006DB7;
+  --lego-blue-light: #D1E8FF;
+  --lego-blue-link: #005AD2;
+  --lego-black: #000000;
+  --lego-dark-gray: #141414;
+  --lego-charcoal: #2C2C2C;
+  --lego-gray: #757575;
+  --lego-white: #FFFFFF;
+  --font-primary: "Cera Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--lego-black);
+  background: var(--lego-white);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; display: block; }
+button { cursor: pointer; font-family: inherit; border: none; }
+
+/* PROMO BAR */
+section.promo-bar {
+  background: var(--lego-blue-light);
+  text-align: center;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--lego-black);
+}
+section.promo-bar a {
+  color: var(--lego-blue-link);
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+/* HEADER */
+section.site-header {
+  background: var(--lego-yellow);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 60px;
+}
+.header-logo img {
+  height: 40px;
+  width: auto;
+}
+.header-nav {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.header-nav a {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--lego-black);
+}
+.header-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header-icons button {
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.header-icons button:hover {
+  background: rgba(0,0,0,0.08);
+}
+.header-icons svg {
+  width: 22px;
+  height: 22px;
+  fill: var(--lego-black);
+}
+
+/* BREADCRUMBS */
+section.breadcrumbs {
+  padding: 16px 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.breadcrumbs nav {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  color: var(--lego-gray);
+}
+.breadcrumbs nav a {
+  color: var(--lego-blue-link);
+}
+.breadcrumbs nav span.sep {
+  color: var(--lego-gray);
+}
+.breadcrumbs nav span.current {
+  color: var(--lego-black);
+  font-weight: 500;
+}
+
+/* PDP MAIN */
+section.pdp-main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px 48px;
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 48px;
+  align-items: start;
+}
+
+/* GALLERY */
+.pdp-gallery {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 16px;
+}
+.gallery-thumbs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.gallery-thumbs button {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  overflow: hidden;
+  background: #f7f7f7;
+  padding: 4px;
+  transition: border-color 0.15s;
+}
+.gallery-thumbs button.active {
+  border-color: var(--lego-black);
+}
+.gallery-thumbs button:hover {
+  border-color: var(--lego-gray);
+}
+.gallery-thumbs button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.gallery-main {
+  background: #f7f7f7;
+  border-radius: 12px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  position: relative;
+}
+.gallery-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* PURCHASE ZONE */
+.pdp-purchase {
+  position: sticky;
+  top: 80px;
+}
+.pdp-purchase .pdp-badge {
+  display: inline-block;
+  background: var(--lego-dark-gray);
+  color: var(--lego-white);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.pdp-purchase h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+.pdp-purchase .item-number {
+  font-size: 13px;
+  color: var(--lego-gray);
+  margin-bottom: 16px;
+}
+.pdp-purchase .rating-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.pdp-purchase .rating-stars {
+  color: #f5a623;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.pdp-purchase .rating-count {
+  font-size: 13px;
+  color: var(--lego-blue-link);
+}
+.pdp-purchase .price-row {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.pdp-purchase .insiders-points {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--lego-charcoal);
+  margin-bottom: 20px;
+  padding: 10px 14px;
+  background: #fef9e0;
+  border-radius: 8px;
+}
+.insiders-points .points-icon {
+  width: 20px;
+  height: 20px;
+  background: var(--lego-yellow);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.pdp-purchase .product-meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding: 16px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.meta-item .meta-label {
+  font-size: 12px;
+  color: var(--lego-gray);
+  font-weight: 400;
+}
+.meta-item .meta-value {
+  font-size: 14px;
+  font-weight: 700;
+}
+.pdp-purchase .btn-add-to-bag {
+  width: 100%;
+  background: var(--lego-red);
+  color: var(--lego-white);
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 24px;
+  border-radius: 999px;
+  text-align: center;
+  transition: background 0.2s;
+  margin-bottom: 12px;
+}
+.pdp-purchase .btn-add-to-bag:hover {
+  background: #b80018;
+}
+.pdp-purchase .btn-wishlist {
+  width: 100%;
+  background: transparent;
+  color: var(--lego-black);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 999px;
+  border: 2px solid var(--lego-black);
+  text-align: center;
+  transition: background 0.15s;
+  margin-bottom: 16px;
+}
+.pdp-purchase .btn-wishlist:hover {
+  background: rgba(0,0,0,0.04);
+}
+.pdp-purchase .shipping-note {
+  font-size: 13px;
+  color: var(--lego-gray);
+  text-align: center;
+}
+.pdp-purchase .shipping-note strong {
+  color: var(--lego-black);
+}
+
+/* DESCRIPTION SECTION */
+section.pdp-description {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  border-top: 1px solid #e5e5e5;
+}
+.pdp-description-inner {
+  max-width: 800px;
+}
+.pdp-description-inner h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.pdp-description-inner p {
+  font-size: 16px;
+  color: var(--lego-charcoal);
+  line-height: 1.7;
+}
+
+/* FEATURES SECTION */
+section.pdp-features {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  background: #f9f9f9;
+}
+.pdp-features h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+.feature-card {
+  background: var(--lego-white);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.feature-card .feature-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--lego-yellow);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.feature-card .feature-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--lego-black);
+}
+.feature-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.feature-card p {
+  font-size: 14px;
+  color: var(--lego-gray);
+}
+
+/* DESIGNER QUOTE */
+section.designer-quote {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 64px 24px;
+  text-align: center;
+}
+.designer-quote-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.designer-quote-inner blockquote {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--lego-charcoal);
+  margin-bottom: 16px;
+  font-style: italic;
+}
+.designer-quote-inner blockquote::before {
+  content: '\201C';
+  font-size: 48px;
+  line-height: 0;
+  vertical-align: -12px;
+  color: var(--lego-yellow);
+  margin-right: 4px;
+}
+.designer-quote-inner cite {
+  font-size: 14px;
+  color: var(--lego-gray);
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* McLAREN COLLAB */
+section.mclaren-collab {
+  background: var(--lego-dark-gray);
+  padding: 64px 24px;
+}
+.collab-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.collab-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--lego-white);
+  margin-bottom: 16px;
+}
+.collab-text p {
+  font-size: 16px;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.6;
+}
+.collab-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collab-image img {
+  max-width: 300px;
+  width: 100%;
+}
+
+/* CROSS-SELL */
+section.cross-sell {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+.cross-sell h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.cross-sell-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.product-card {
+  background: var(--lego-white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: box-shadow 0.2s, transform 0.2s;
+  position: relative;
+}
+.product-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+.product-card .badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 4px;
+  z-index: 2;
+  background: var(--lego-dark-gray);
+  color: var(--lego-white);
+}
+.product-card-image {
+  width: 100%;
+  aspect-ratio: 1;
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.product-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.product-card-info {
+  padding: 16px;
+}
+.product-card-info h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+.product-card-info .price {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.product-card-info .meta {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--lego-gray);
+  margin-bottom: 12px;
+}
+.product-card-info .btn-add {
+  width: 100%;
+  background: var(--lego-red);
+  color: var(--lego-white);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px 16px;
+  border-radius: 999px;
+  text-align: center;
+  transition: background 0.2s;
+}
+.product-card-info .btn-add:hover {
+  background: #b80018;
+}
+
+/* FOOTER */
+section.site-footer {
+  background: var(--lego-dark-gray);
+  color: var(--lego-white);
+  padding: 48px 24px 32px;
+}
+.footer-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  margin-bottom: 40px;
+}
+.footer-col h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.footer-col ul {
+  list-style: none;
+}
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+.footer-col ul li a {
+  font-size: 13px;
+  color: rgba(255,255,255,0.75);
+  transition: color 0.15s;
+}
+.footer-col ul li a:hover {
+  color: var(--lego-white);
+}
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom p {
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+}
+
+@media (max-width: 1024px) {
+  section.pdp-main {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .pdp-gallery {
+    grid-template-columns: 60px 1fr;
+  }
+  .cross-sell-grid { grid-template-columns: repeat(2, 1fr); }
+  .collab-inner { grid-template-columns: 1fr; text-align: center; }
+}
+@media (max-width: 768px) {
+  .pdp-gallery {
+    grid-template-columns: 1fr;
+  }
+  .gallery-thumbs {
+    flex-direction: row;
+    overflow-x: auto;
+  }
+  .gallery-thumbs button {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  .footer-columns { grid-template-columns: repeat(2, 1fr); }
+  .cross-sell-grid { grid-template-columns: repeat(2, 1fr); }
+  .features-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- Promo Bar -->
+<section class="promo-bar">
+  FREE Shipping with orders over $35!
+  <a href="#">Details</a>
+</section>
+
+<!-- Header -->
+<section class="site-header">
+  <div class="header-inner">
+    <a href="homepage.html" class="header-logo">
+      <img src="https://assets.lego.com/logos/v4.5.0/brand-lego.svg" alt="LEGO">
+    </a>
+    <nav class="header-nav">
+      <a href="#">Shop</a>
+      <a href="#">Discover</a>
+      <a href="#">Help</a>
+    </nav>
+    <div class="header-icons">
+      <button aria-label="Search">
+        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+      </button>
+      <button aria-label="Account">
+        <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+      </button>
+      <button aria-label="Cart">
+        <svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1.003 1.003 0 0020.01 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Breadcrumbs -->
+<section class="breadcrumbs">
+  <nav>
+    <a href="homepage.html">Home</a>
+    <span class="sep">/</span>
+    <a href="#">Shop</a>
+    <span class="sep">/</span>
+    <a href="#">Themes</a>
+    <span class="sep">/</span>
+    <a href="technic.html">Technic</a>
+    <span class="sep">/</span>
+    <span class="current">McLaren P1™</span>
+  </nav>
+</section>
+
+<!-- PDP Main: Gallery + Purchase Zone -->
+<section class="pdp-main">
+  <!-- Gallery -->
+  <div class="pdp-gallery">
+    <div class="gallery-thumbs">
+      <button class="active" onclick="changeImage(this, 'https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png?fit=crop&quality=80&width=800&height=800&dpr=1')">
+        <img src="https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Main view">
+      </button>
+      <button onclick="changeImage(this, 'https://www.lego.com/cdn/cs/set/assets/bltaf11a3ec76040cc5/42172_boxprod_v39_sha.jpg?fit=crop&quality=80&width=800&height=800&dpr=1')">
+        <img src="https://www.lego.com/cdn/cs/set/assets/bltaf11a3ec76040cc5/42172_boxprod_v39_sha.jpg?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Box">
+      </button>
+      <button onclick="changeImage(this, 'https://www.lego.com/cdn/cs/set/assets/bltbf9cfe344df7d757/42172_Left_01.png?fit=crop&quality=80&width=800&height=800&dpr=1')">
+        <img src="https://www.lego.com/cdn/cs/set/assets/bltbf9cfe344df7d757/42172_Left_01.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Left side">
+      </button>
+      <button onclick="changeImage(this, 'https://www.lego.com/cdn/cs/set/assets/blt47d395554821fc00/42172_Back_01.png?fit=crop&quality=80&width=800&height=800&dpr=1')">
+        <img src="https://www.lego.com/cdn/cs/set/assets/blt47d395554821fc00/42172_Back_01.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Back view">
+      </button>
+      <button onclick="changeImage(this, 'https://www.lego.com/cdn/cs/set/assets/bltec03a4b69b7227b9/42172_Lifestyle_Cons_02.jpg?fit=crop&quality=80&width=800&height=800&dpr=1')">
+        <img src="https://www.lego.com/cdn/cs/set/assets/bltec03a4b69b7227b9/42172_Lifestyle_Cons_02.jpg?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Lifestyle">
+      </button>
+      <button onclick="changeImage(this, 'https://www.lego.com/cdn/cs/set/assets/blt571c50910e06b98b/42172_Lifestyle_Build_05.jpg?fit=crop&quality=80&width=800&height=800&dpr=1')">
+        <img src="https://www.lego.com/cdn/cs/set/assets/blt571c50910e06b98b/42172_Lifestyle_Build_05.jpg?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Build">
+      </button>
+    </div>
+    <div class="gallery-main">
+      <img id="main-image" src="https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="McLaren P1™">
+    </div>
+  </div>
+
+  <!-- Purchase Zone -->
+  <div class="pdp-purchase">
+    <span class="pdp-badge">Ultimate</span>
+    <h1>McLaren P1™</h1>
+    <p class="item-number">Item 42172</p>
+    <div class="rating-row">
+      <span class="rating-stars">★★★★★</span>
+      <a href="#" class="rating-count">128 Reviews</a>
+    </div>
+    <div class="price-row">$449.99</div>
+    <div class="insiders-points">
+      <span class="points-icon">★</span>
+      <span>Earn 2925 LEGO® Insiders Points</span>
+    </div>
+    <div class="product-meta-grid">
+      <div class="meta-item">
+        <span class="meta-label">Ages</span>
+        <span class="meta-value">18+</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Pieces</span>
+        <span class="meta-value">3893</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Item</span>
+        <span class="meta-value">42172</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Scale</span>
+        <span class="meta-value">1:8</span>
+      </div>
+    </div>
+    <button class="btn-add-to-bag">Add to Bag</button>
+    <button class="btn-wishlist">Add to Wish List</button>
+    <p class="shipping-note"><strong>FREE Shipping</strong> with orders over $35!*</p>
+  </div>
+</section>
+
+<!-- Description -->
+<section class="pdp-description">
+  <div class="pdp-description-inner">
+    <h2>Our most advanced LEGO® Technic™ Ultimate set yet</h2>
+    <p>Ignite your love for supercars with this engaging LEGO® Technic™ McLaren P1™ hypercar set for adults. Become immersed in the details as you construct the impressive 1:8 scale model. Then take your time exploring features like the 7-speed gearbox with its shifter drum, the suspension and the V8 piston engine. Admire the adjustable rear wing and the opening doors with their butterfly-style mechanism, before proudly displaying your completed model. Like the real-world car, the LEGO Technic version features its own unique serial number, which gives you access to exclusive online content.</p>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="pdp-features">
+  <h2>Key features</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg>
+      </div>
+      <h3>Dihedral doors</h3>
+      <p>Open and close at a touch</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><circle cx="12" cy="12" r="3"/></svg>
+      </div>
+      <h3>Steering</h3>
+      <p>Turn to move the wheels</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg viewBox="0 0 24 24"><path d="M3 17h18v2H3v-2zm0-7h18v5H3v-5zm0-4h18v2H3V6z"/></svg>
+      </div>
+      <h3>Rear Wing Spoiler</h3>
+      <p>Adjust the height from road to race</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg viewBox="0 0 24 24"><path d="M7.5 3.5C5.57 3.5 4 5.07 4 7c0 1.57.8 3.7 2.13 6.43.7 1.44 1.56 2.96 2.45 4.42L12 23l3.42-5.15c.89-1.46 1.75-2.98 2.45-4.42C19.2 10.7 20 8.57 20 7c0-1.93-1.57-3.5-3.5-3.5S13 3.57 13 5.5h-2C11 3.57 9.43 3.5 7.5 3.5z"/></svg>
+      </div>
+      <h3>Suspension</h3>
+      <p>Absorb shock with wishbone elements</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/><circle cx="12" cy="11" r="3"/></svg>
+      </div>
+      <h3>V8 Engine</h3>
+      <p>Watch the pistons pump</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 6v3l4-4-4-4v3c-4.42 0-8 3.58-8 8 0 1.57.46 3.03 1.24 4.26L6.7 14.8A5.87 5.87 0 016 12c0-3.31 2.69-6 6-6zm6.76 1.74L17.3 9.2c.44.84.7 1.79.7 2.8 0 3.31-2.69 6-6 6v-3l-4 4 4 4v-3c4.42 0 8-3.58 8-8 0-1.57-.46-3.03-1.24-4.26z"/></svg>
+      </div>
+      <h3>Removable Rear Hood</h3>
+      <p>View the engine beneath</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/></svg>
+      </div>
+      <h3>Single Central Exhaust</h3>
+      <p>Authentically detailed elements</p>
+    </div>
+  </div>
+</section>
+
+<!-- Designer Quote -->
+<section class="designer-quote">
+  <div class="designer-quote-inner">
+    <blockquote>The attention to detail in the McLaren P1™ is simply unsurpassed.</blockquote>
+    <cite>Kasper Ren&eacute; Hansen, LEGO® Technic™ Model Designer</cite>
+  </div>
+</section>
+
+<!-- McLaren Collaboration -->
+<section class="mclaren-collab">
+  <div class="collab-inner">
+    <div class="collab-text">
+      <h2>A McLaren collaboration</h2>
+      <p>Air likes to move in smooth, sinuous, organic curves, and, inspired by biomimicry and aqua- and aerodynamics, we studied images of hammerhead sharks and falcons in flight. This LEGO® Technic™ model captures the essence of that design philosophy in brick form.</p>
+    </div>
+    <div class="collab-image">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blt5c55b6de06cce314/McLaren-logo-neg_300w.png?format=png&height=60&dpr=1" alt="McLaren Logo">
+    </div>
+  </div>
+</section>
+
+<!-- Cross-sell / Recommended -->
+<section class="cross-sell">
+  <h2>Recommended For You</h2>
+  <div class="cross-sell-grid">
+    <!-- Ferrari Daytona SP3 -->
+    <div class="product-card">
+      <span class="badge">Ultimate</span>
+      <div class="product-card-image">
+        <img src="https://www.lego.com/cdn/cs/set/assets/bltb862bc546852bd71/42143.png?fit=crop&quality=80&width=400&height=400&dpr=1" alt="Ferrari Daytona SP3">
+      </div>
+      <div class="product-card-info">
+        <h3>Ferrari Daytona SP3</h3>
+        <div class="price">$449.99</div>
+        <div class="meta">
+          <span>18+</span>
+          <span>3778 pcs</span>
+        </div>
+        <button class="btn-add">Add to Bag</button>
+      </div>
+    </div>
+    <!-- Oracle Red Bull Racing RB20 -->
+    <div class="product-card">
+      <div class="product-card-image">
+        <img src="https://www.lego.com/cdn/cs/set/assets/bltca542b859ace5383/42206_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1" alt="Oracle Red Bull Racing RB20 F1 Car">
+      </div>
+      <div class="product-card-info">
+        <h3>Oracle Red Bull Racing RB20 F1 Car</h3>
+        <div class="price">$229.99</div>
+        <div class="meta">
+          <span>18+</span>
+          <span>1642 pcs</span>
+        </div>
+        <button class="btn-add">Add to Bag</button>
+      </div>
+    </div>
+    <!-- 2022 Ford GT -->
+    <div class="product-card">
+      <div class="product-card-image">
+        <img src="https://www.lego.com/cdn/cs/set/assets/blt5014244d8d8dc8ad/42154.png?fit=crop&quality=80&width=400&height=400&dpr=1" alt="2022 Ford GT">
+      </div>
+      <div class="product-card-info">
+        <h3>2022 Ford GT</h3>
+        <div class="price">$119.99</div>
+        <div class="meta">
+          <span>18+</span>
+        </div>
+        <button class="btn-add">Add to Bag</button>
+      </div>
+    </div>
+    <!-- Porsche 911 GT3 R -->
+    <div class="product-card">
+      <div class="product-card-image">
+        <img src="https://www.lego.com/cdn/cs/set/assets/blt63b0cec2f9e3eccd/42224_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1" alt="Porsche 911 GT3 R REXY AO Racing Car">
+      </div>
+      <div class="product-card-info">
+        <h3>Porsche 911 GT3 R REXY AO Racing Car</h3>
+        <div class="price">$149.99</div>
+        <div class="meta">
+          <span>18+</span>
+        </div>
+        <button class="btn-add">Add to Bag</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<section class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h4>About Us</h4>
+        <ul>
+          <li><a href="#">About the LEGO Group</a></li>
+          <li><a href="#">LEGO® news</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Supply chain transparency</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Find building instructions</a></li>
+          <li><a href="#">Replacement parts</a></li>
+          <li><a href="#">Delivery & returns</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Attractions</h4>
+        <ul>
+          <li><a href="#">LEGO® House</a></li>
+          <li><a href="#">LEGOLAND® Parks</a></li>
+          <li><a href="#">LEGOLAND Discovery Centers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>More From Us</h4>
+        <ul>
+          <li><a href="#">LEGO® Life Magazine</a></li>
+          <li><a href="#">LEGO® Education</a></li>
+          <li><a href="#">LEGO® Ideas</a></li>
+          <li><a href="#">LEGO® Foundation</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 The LEGO Group. All rights reserved.</p>
+    </div>
+  </div>
+</section>
+
+<script>
+function changeImage(btn, src) {
+  document.getElementById('main-image').src = src;
+  document.querySelectorAll('.gallery-thumbs button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+</script>
+
+</body>
+</html>
