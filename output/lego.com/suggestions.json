@@ -1,0 +1,67 @@
+{
+  "title": "Build What You Love",
+  "subtitle": "Discover LEGO Technic supercars, F1 machines, and iconic builds — tailored to your passion.",
+  "placeholder": "Ask about any Technic set, compare builds, or find your next project...",
+  "suggestions": [
+    {
+      "type": "explore",
+      "label": "Tell me about the McLaren P1",
+      "query": "Tell me about the LEGO Technic McLaren P1 set — what makes it special and what are the key features?"
+    },
+    {
+      "type": "explore",
+      "label": "McLaren P1 vs Ferrari Daytona",
+      "query": "Compare the McLaren P1 and Ferrari Daytona SP3 — which is the better build and what are the differences?"
+    },
+    {
+      "type": "explore",
+      "label": "Best supercar for a new builder",
+      "query": "Best LEGO Technic supercar for a first-time adult builder who wants something impressive but not overwhelming"
+    },
+    {
+      "type": "explore",
+      "label": "Show me Technic supercars",
+      "query": "Show me all the LEGO Technic supercars and hypercars available right now"
+    },
+    {
+      "type": "explore",
+      "label": "Technic cars under $100",
+      "query": "What LEGO Technic cars can I get for under $100?"
+    },
+    {
+      "type": "explore",
+      "label": "Gift for a car enthusiast",
+      "query": "Best LEGO gift for a car enthusiast — something impressive that says I put thought into it"
+    },
+    {
+      "type": "explore",
+      "label": "F1 and racing sets",
+      "query": "Show me all the Formula 1 and racing LEGO Technic sets — Red Bull, McLaren, Ferrari, Mercedes"
+    },
+    {
+      "type": "explore",
+      "label": "Most challenging Technic build",
+      "query": "What is the most challenging and complex LEGO Technic build with the most pieces?"
+    },
+    {
+      "type": "explore",
+      "label": "Fast & Furious collection",
+      "query": "Show me the Fast and Furious LEGO Technic collection — Dodge Charger, Skyline, and Eclipse"
+    },
+    {
+      "type": "explore",
+      "label": "Which F1 car should I build?",
+      "query": "Which LEGO F1 car should I build — help me choose between Red Bull RB20, McLaren MCL39, Ferrari SF-24, and Mercedes W14"
+    },
+    {
+      "type": "explore",
+      "label": "Weekend build under $150",
+      "query": "Recommend a rewarding LEGO Technic weekend build project under $150 that I can finish in a day"
+    },
+    {
+      "type": "explore",
+      "label": "New Technic releases",
+      "query": "What are the newest LEGO Technic releases and upcoming sets I should know about?"
+    }
+  ]
+}

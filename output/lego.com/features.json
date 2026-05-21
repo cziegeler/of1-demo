@@ -1,0 +1,72 @@
+[
+  {
+    "id": "scale-model-engineering",
+    "name": "Scale Model Engineering",
+    "description": "1:8 and 1:10 scale replicas built with precision engineering — proportions, body lines, and mechanical functions recreated at scale with thousands of Technic elements. The Ultimate sets (McLaren P1, Ferrari Daytona) deliver the most authentic scale-model experience.",
+    "productIds": ["mclaren-p1-42172", "ferrari-daytona-sp3-42143"],
+    "category": "build-experience"
+  },
+  {
+    "id": "brand-partnerships",
+    "name": "Official Brand Partnerships",
+    "description": "Officially licensed sets created in collaboration with McLaren, Ferrari, Red Bull Racing, Mercedes-AMG, Porsche, BMW, Ford, Bugatti, and Chevrolet. Authentic liveries, logos, and design approval from the real manufacturers and racing teams.",
+    "productIds": ["mclaren-p1-42172", "ferrari-daytona-sp3-42143", "red-bull-rb20-42206", "mclaren-mcl39-42228", "ferrari-sf24-42207", "mercedes-f1-w14-42171", "porsche-911-gt3r-42224", "bmw-m4-gt3-evo-42226", "bugatti-chiron-pur-sport-42222", "corvette-stingray-42217", "mercedes-unimog-42242"],
+    "category": "licensing"
+  },
+  {
+    "id": "working-mechanisms",
+    "name": "Working Mechanical Functions",
+    "description": "Functional steering, suspension, gearboxes, engines with moving pistons, and opening doors/hoods built from Technic elements. These aren't stickers — they're real mechanical systems you assemble and operate. Premium sets feature 6+ distinct working functions.",
+    "productIds": ["mclaren-p1-42172", "ferrari-daytona-sp3-42143", "red-bull-rb20-42206", "porsche-911-gt3r-42224", "ford-gt-2022-42154", "mercedes-unimog-42242"],
+    "category": "build-experience"
+  },
+  {
+    "id": "insiders-points",
+    "name": "LEGO Insiders Loyalty Points",
+    "description": "Every Technic purchase earns LEGO Insiders points (roughly 6.5 points per dollar). Premium sets like the McLaren P1 earn 2,925 points — redeemable for discounts, exclusive sets, and VIP experiences. Members get early access to new releases.",
+    "productIds": ["mclaren-p1-42172", "ferrari-daytona-sp3-42143", "red-bull-rb20-42206"],
+    "category": "value"
+  },
+  {
+    "id": "f1-collection",
+    "name": "Complete F1 Grid Collection",
+    "description": "Build multiple F1 cars from the current grid — Red Bull, McLaren, Ferrari, and Mercedes — to create a complete Formula 1 collection. Each car at the same scale, designed to display together as a racing lineup.",
+    "productIds": ["red-bull-rb20-42206", "mclaren-mcl39-42228", "ferrari-sf24-42207", "mercedes-f1-w14-42171"],
+    "category": "collection"
+  },
+  {
+    "id": "fast-furious-franchise",
+    "name": "Fast and Furious Movie Collection",
+    "description": "Build iconic cars from the Fast and Furious franchise — from Dom's Dodge Charger to Brian's Skyline R34 and Eclipse. Each set captures the movie-accurate livery and modifications that made these cars legendary on screen.",
+    "productIds": ["dodge-charger-fast-furious-42231", "nissan-skyline-r34-42210", "mitsubishi-eclipse-fast-furious-42229"],
+    "category": "collection"
+  },
+  {
+    "id": "display-quality",
+    "name": "Display-Worthy Design",
+    "description": "Every Technic set is designed to look stunning on a shelf. Premium sets include display stands with nameplates. The models feature authentic proportions, color-accurate bodywork, and details visible from every angle — built to be admired, not just assembled.",
+    "productIds": ["mclaren-p1-42172", "ferrari-daytona-sp3-42143", "red-bull-rb20-42206", "porsche-911-gt3r-42224", "ford-gt-2022-42154"],
+    "category": "display"
+  },
+  {
+    "id": "pneumatic-power",
+    "name": "Pneumatic Systems",
+    "description": "Select Technic sets feature pneumatic-powered mechanisms — air cylinders and pumps that create smooth, realistic mechanical operation for cranes, lifts, and moving parts. A unique engineering experience not found in any other LEGO theme.",
+    "productIds": ["mercedes-unimog-42242"],
+    "category": "build-experience"
+  },
+  {
+    "id": "price-range-accessibility",
+    "name": "Entry Points at Every Budget",
+    "description": "LEGO Technic motorsport sets range from $59.99 (Corvette Stingray) to $449.99 (McLaren P1 / Ferrari Daytona). Accessible sets at $65 introduce the building system; premium sets at $230 deliver F1-level detail; Ultimate sets at $450 are peak engineering.",
+    "productIds": ["corvette-stingray-42217", "bugatti-chiron-pur-sport-42222", "ford-gt-2022-42154", "red-bull-rb20-42206", "mclaren-p1-42172"],
+    "category": "value"
+  },
+  {
+    "id": "motorsport-heritage",
+    "name": "Motorsport History & Heritage",
+    "description": "Sets that celebrate racing history — from the 1966 Ford GT40 that won Le Mans to modern F1 championship cars. Each build tells the story of automotive engineering evolution and the legendary races that defined motorsport.",
+    "productIds": ["ford-gt40-1966-42223", "red-bull-rb20-42206", "ferrari-daytona-sp3-42143", "porsche-911-gt3r-42224"],
+    "category": "story"
+  }
+]

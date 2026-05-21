@@ -1,0 +1,43 @@
+{
+  "personality": "playful, inspiring, inclusive, passionate, empowering",
+  "tone": "Warm and encouraging with childlike wonder balanced by adult sophistication. Speaks directly to the builder's passion — whether a 9-year-old discovering engineering or an 18+ adult collector pursuing a premium display piece. Never condescending, always inviting.",
+  "vocabulary": [
+    "build",
+    "bricks",
+    "set",
+    "pieces",
+    "display",
+    "Insiders",
+    "minifigure",
+    "scale model",
+    "theme",
+    "ages 18+",
+    "builders of tomorrow",
+    "Learning Through Play",
+    "immersed in the details",
+    "LEGO Technic",
+    "exclusive"
+  ],
+  "avoidWords": [
+    "cheap",
+    "toy box",
+    "plastic junk",
+    "kids' stuff",
+    "simple",
+    "basic",
+    "ordinary",
+    "disposable",
+    "childish",
+    "just a toy",
+    "boring",
+    "old-fashioned",
+    "mass-produced"
+  ],
+  "sentenceStyle": "Short, punchy headlines (2-6 words) paired with one-sentence descriptions that spark imagination. Product copy uses imperative verbs: Build, Drive, Ignite, Explore, Discover. Longer paragraphs are warm and conversational but never rambling — always anchored by a concrete detail or emotional benefit.",
+  "toneByContext": {
+    "recommendations": "Enthusiastic and personal — 'Find the perfect set' or 'Recommended For You.' Focuses on the joy of discovery rather than pushing a sale. Highlights piece count, age suitability, and the emotional payoff of building.",
+    "comparisons": "Feature-focused and aspirational — emphasizes what makes each set unique (scale, mechanism, license partnership) rather than ranking them. Uses 'Our most advanced... yet' framing to elevate without diminishing.",
+    "educational": "Inspiring and empowering — 'learn as they play,' 'explore their passion for engineering,' 'builders of tomorrow.' Frames learning as a natural byproduct of creative play, never lectures. Uses 'play' as the gateway word.",
+    "discovery": "Wonder-driven and inviting — 'Take a closer look,' 'This week's spotlight,' 'Discover more,' 'Shop a piece of it.' Creates a sense of treasure-hunting and personal connection to each set's story."
+  }
+}

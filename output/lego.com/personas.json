@@ -1,12 +1,12 @@
 [
   {
-    "id": "marcus",
-    "name": "Marcus",
+    "id": "afol-motorsport",
+    "name": "Marcus — Motorsport Enthusiast / AFOL",
     "age": 32,
     "role": "Motorsport Enthusiast / AFOL",
     "location": "Austin, TX",
     "income": "$130K",
-    "description": "Software engineer who watches F1 every weekend and follows supercar channels on YouTube. Owns 4 Technic sets, displays them on a dedicated shelf. LEGO Insiders member with 3,200 points.",
+    "description": "Software engineer who watches F1 every weekend and follows supercar channels on YouTube. Owns 4 Technic sets, displays them on a dedicated shelf. LEGO Insiders member with 3,200 points. Wants the most complex, authentic builds with real engineering detail.",
     "goals": [
       "Find the next impressive display piece",
       "Understand engineering details before committing $400+",
@@ -18,24 +18,25 @@
       "Wants engineering detail and authentic features",
       "Doesn't want to miss limited editions or new drops"
     ],
-    "keywords": ["engineering", "authentic details", "advanced build", "display piece", "supercar", "F1", "motorsport", "scale model", "Ultimate set", "18+"],
+    "keywords": ["technic", "supercar", "mclaren", "ferrari", "f1", "formula 1", "complex build", "display piece", "18+", "adult lego", "engineering", "scale model"],
+    "priorities": ["Engineering authenticity", "Build complexity and length", "Display quality", "Brand licensing accuracy", "Insiders rewards value"],
+    "recommendedProducts": ["mclaren-p1-42172", "ferrari-daytona-sp3-42143", "red-bull-rb20-42206", "mclaren-mcl39-42228", "ferrari-sf24-42207", "mercedes-f1-w14-42171"],
     "browsingBehavior": {
       "frequency": "2-3x per week",
       "entryPoints": ["Technic theme page", "New sets", "Direct PDP links from YouTube reviews"],
       "avgSessionTime": "8 minutes",
       "conversionTriggers": ["New release announcement", "Loyalty reward threshold", "Sale on premium sets"]
     },
-    "preferredProducts": ["42172", "42143", "42206", "42228", "42207", "42171"],
     "primary": true
   },
   {
-    "id": "priya",
-    "name": "Priya",
+    "id": "gift-buyer",
+    "name": "Priya — Gift Buyer",
     "age": 28,
     "role": "Gift Buyer",
     "location": "San Francisco, CA",
     "income": "$95K",
-    "description": "Product designer buying for partner who loves cars and LEGO. Needs gift guidance — price ranges, difficulty levels, what's new and exclusive.",
+    "description": "Product designer buying for partner who loves cars and LEGO. Needs gift guidance — price ranges, difficulty levels, what's new and exclusive. Looking for something impressive that says 'I thought about this.'",
     "goals": [
       "Find a meaningful gift in the $100-$300 range",
       "Understand what makes a set special or exclusive",
@@ -46,24 +47,25 @@
       "Unsure which sets are too advanced or too simple",
       "Worried about buying a duplicate"
     ],
-    "keywords": ["gift", "bestseller", "exclusive", "limited edition", "popular", "new release", "for him", "car lover"],
+    "keywords": ["gift", "gift for him", "car lover gift", "bestseller", "exclusive", "limited edition", "popular", "new release", "birthday gift", "fathers day", "christmas gift", "what to buy"],
+    "priorities": ["Gift-worthiness and wow factor", "Clear price-to-value story", "New or exclusive status", "Delivery reliability", "Gift wrapping availability"],
+    "recommendedProducts": ["dodge-charger-fast-furious-42231", "nissan-skyline-r34-42210", "ford-gt-2022-42154", "porsche-911-gt3r-42224", "mitsubishi-eclipse-fast-furious-42229"],
     "browsingBehavior": {
       "frequency": "Seasonal (birthdays, holidays)",
       "entryPoints": ["Google search 'best LEGO sets for adults'", "Gift guide pages", "Bestsellers"],
       "avgSessionTime": "12 minutes",
       "conversionTriggers": ["Gift-wrapping available", "Guaranteed delivery date", "Bestseller badge"]
     },
-    "preferredProducts": ["42154", "42224", "42210"],
     "primary": false
   },
   {
-    "id": "jake",
-    "name": "Jake",
+    "id": "returning-builder",
+    "name": "Jake — Returning Builder",
     "age": 45,
     "role": "Returning Builder",
     "location": "Denver, CO",
     "income": "$110K",
-    "description": "Played with LEGO as a kid, rediscovering the hobby as an adult. Wants a curated entry point — something iconic and rewarding but not overwhelming.",
+    "description": "Played with LEGO as a kid, rediscovering the hobby as an adult. Wants a curated entry point — something iconic and rewarding but not overwhelming. Looking for that sweet spot between challenge and accessibility.",
     "goals": [
       "Rediscover the joy of building",
       "Find an iconic set that feels worth the investment",
@@ -74,14 +76,44 @@
       "Doesn't know where to start with adult sets",
       "Price sensitivity — wants to feel value before going premium"
     ],
-    "keywords": ["getting started", "iconic", "what's popular", "adult sets", "best value", "first build", "classic cars"],
+    "keywords": ["getting started", "best value", "first technic set", "adult sets", "what's popular", "iconic", "classic cars", "corvette", "ford", "beginner friendly", "not too expensive", "weekend project"],
+    "priorities": ["Value for money", "Iconic recognizable cars", "Manageable build time", "Clear starting recommendation", "Rewarding experience without overwhelm"],
+    "recommendedProducts": ["ford-gt-2022-42154", "corvette-stingray-42217", "bugatti-chiron-pur-sport-42222", "ford-gt40-1966-42223", "bmw-m4-gt3-evo-42226"],
     "browsingBehavior": {
       "frequency": "Monthly exploration",
       "entryPoints": ["Homepage", "Themes landing page", "Article/video content"],
       "avgSessionTime": "15 minutes",
       "conversionTriggers": ["Inspiring lifestyle imagery", "Clear 'start here' recommendation", "Mid-range price point"]
     },
-    "preferredProducts": ["42154", "42217", "42222"],
+    "primary": false
+  },
+  {
+    "id": "movie-fan-collector",
+    "name": "Tyler — Movie Fan & Pop Culture Collector",
+    "age": 26,
+    "role": "Movie Fan / Pop Culture Collector",
+    "location": "Los Angeles, CA",
+    "income": "$75K",
+    "description": "Film buff and pop culture collector who buys LEGO sets tied to franchises he loves. Grew up watching Fast and Furious, now wants the cars on his shelf. Cross-shops with other movie merchandise and gaming collectibles. Responds strongly to 'NEW' badges and franchise tie-ins.",
+    "goals": [
+      "Collect every Fast and Furious LEGO set",
+      "Display movie cars alongside other franchise collectibles",
+      "Stay on top of new franchise releases before they sell out"
+    ],
+    "painPoints": [
+      "Worried about sets retiring before he can buy them",
+      "Wants to know which sets pair together for a collection",
+      "Budget-conscious — prioritizes franchise connection over complexity"
+    ],
+    "keywords": ["fast and furious", "movie cars", "paul walker", "dom toretto", "dodge charger", "skyline r34", "eclipse", "franchise", "collectible", "new release", "pop culture", "movie lego"],
+    "priorities": ["Franchise authenticity", "Collection completeness", "New release availability", "Display presence together", "Affordable entry points"],
+    "recommendedProducts": ["dodge-charger-fast-furious-42231", "nissan-skyline-r34-42210", "mitsubishi-eclipse-fast-furious-42229"],
+    "browsingBehavior": {
+      "frequency": "Around movie releases and new set drops",
+      "entryPoints": ["Social media announcements", "LEGO new arrivals page", "YouTube unboxing videos"],
+      "avgSessionTime": "6 minutes",
+      "conversionTriggers": ["NEW badge", "Franchise branding", "Limited availability messaging"]
+    },
     "primary": false
   }
 ]

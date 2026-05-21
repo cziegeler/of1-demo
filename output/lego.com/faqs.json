@@ -1,0 +1,72 @@
+[
+  {
+    "id": "what-age-is-technic-for",
+    "question": "What age is LEGO Technic for?",
+    "answer": "LEGO Technic sets span ages 9+ to 18+. The 18+ sets (like the McLaren P1, Ferrari Daytona, and F1 cars) are designed specifically for adults — they feature complex mechanisms, thousands of pieces, and sophisticated building techniques. Sets marked 9+ or 10+ are great for younger builders or adults who want a quicker, less complex build.",
+    "relatedProducts": ["mclaren-p1-42172", "bugatti-chiron-pur-sport-42222", "corvette-stingray-42217"],
+    "category": "general"
+  },
+  {
+    "id": "most-complex-technic-set",
+    "question": "What's the most complex Technic set available?",
+    "answer": "The McLaren P1 (42172) with 3,893 pieces and the Ferrari Daytona SP3 (42143) with 3,778 pieces are the most complex Technic sets. Both are 'Ultimate' tier, feature 1:8 scale, and include 6+ working mechanical functions including engines with moving pistons, gearboxes, steering, and suspension. Expect 15-20+ hours of building time.",
+    "relatedProducts": ["mclaren-p1-42172", "ferrari-daytona-sp3-42143"],
+    "category": "product-comparison"
+  },
+  {
+    "id": "technic-good-gifts-adults",
+    "question": "Are LEGO Technic sets good gifts for adults?",
+    "answer": "Absolutely. The 18+ Technic line is specifically designed for adult builders. They feature officially licensed cars from brands like McLaren, Ferrari, and Porsche with authentic engineering details. Popular gift picks include the F1 cars ($220-$230), the Ford GT ($120), and the Fast and Furious movie cars ($65-$160). Many come with display stands.",
+    "relatedProducts": ["red-bull-rb20-42206", "ford-gt-2022-42154", "dodge-charger-fast-furious-42231"],
+    "category": "gifting"
+  },
+  {
+    "id": "difference-technic-regular",
+    "question": "What's the difference between Technic and regular LEGO?",
+    "answer": "LEGO Technic uses pins, beams, axles, and gears instead of traditional bricks and plates. This allows for working mechanical functions — real steering, suspension, engines with moving pistons, and gearboxes. Technic models replicate how real cars work internally, not just how they look externally. It's engineering-focused building.",
+    "relatedProducts": ["mclaren-p1-42172", "mercedes-unimog-42242"],
+    "category": "general"
+  },
+  {
+    "id": "which-f1-set-to-buy",
+    "question": "Which LEGO Technic F1 car should I buy?",
+    "answer": "It depends on your team allegiance. Red Bull RB20 ($230) — for Verstappen and championship fans. McLaren MCL39 ($230) — for Norris/Piastri fans, iconic papaya orange. Ferrari SF-24 ($230) — for Leclerc/Sainz fans and Ferrari loyalists. Mercedes W14 ($220) — for Hamilton fans and Silver Arrows history. All are 18+ with similar complexity. Many collectors build the full grid.",
+    "relatedProducts": ["red-bull-rb20-42206", "mclaren-mcl39-42228", "ferrari-sf24-42207", "mercedes-f1-w14-42171"],
+    "category": "product-comparison"
+  },
+  {
+    "id": "how-long-to-build",
+    "question": "How long does it take to build a LEGO Technic set?",
+    "answer": "Build times vary by complexity. The $60-$75 sets (Bugatti Chiron, BMW M4, Corvette) take 3-5 hours. Mid-range sets like the Ford GT and F1 cars take 8-12 hours. The Ultimate sets (McLaren P1, Ferrari Daytona) with 3,800+ pieces take 15-25 hours spread across multiple sessions. Most builders enjoy spreading premium sets over several weekends.",
+    "relatedProducts": ["bugatti-chiron-pur-sport-42222", "red-bull-rb20-42206", "mclaren-p1-42172"],
+    "category": "general"
+  },
+  {
+    "id": "best-technic-under-100",
+    "question": "What's the best LEGO Technic car under $100?",
+    "answer": "Top picks under $100: The 1966 Ford GT40 ($75) offers racing heritage and Le Mans history. The Bugatti Chiron Pur Sport ($65) is a hypercar with great display presence. The BMW M4 GT3 EVO ($65) is perfect for racing fans. The Chevrolet Corvette Stingray ($60) is an iconic American sports car. All feature working steering and authentic design.",
+    "relatedProducts": ["ford-gt40-1966-42223", "bugatti-chiron-pur-sport-42222", "bmw-m4-gt3-evo-42226", "corvette-stingray-42217"],
+    "category": "gifting"
+  },
+  {
+    "id": "do-technic-sets-have-working-parts",
+    "question": "Do LEGO Technic cars have working parts?",
+    "answer": "Yes — working mechanical functions are what define Technic. Depending on the set, you'll find functional steering, independent suspension, engines with moving pistons, sequential gearboxes, opening doors/hoods, and even pneumatic systems. The McLaren P1 alone has 7 distinct working functions. These aren't decorative — they operate just like the real mechanisms.",
+    "relatedProducts": ["mclaren-p1-42172", "ferrari-daytona-sp3-42143", "mercedes-unimog-42242"],
+    "category": "general"
+  },
+  {
+    "id": "fast-and-furious-sets",
+    "question": "What Fast and Furious LEGO sets are available?",
+    "answer": "The current LEGO Technic Fast and Furious collection includes: Dom's Dodge Charger R/T ($160, 18+) — the iconic black muscle car. Paul Walker's Nissan Skyline GT-R R34 ($140, 18+) — the silver-and-blue JDM legend. Brian's Mitsubishi Eclipse ($65, 9+) — the green tuner that started it all. The Charger and Eclipse are new releases.",
+    "relatedProducts": ["dodge-charger-fast-furious-42231", "nissan-skyline-r34-42210", "mitsubishi-eclipse-fast-furious-42229"],
+    "category": "product-comparison"
+  },
+  {
+    "id": "lego-insiders-worth-it",
+    "question": "Is LEGO Insiders worth joining for Technic purchases?",
+    "answer": "Definitely — it's free to join. You earn roughly 6.5 points per dollar spent. The McLaren P1 earns 2,925 points alone. Points redeem for discounts ($5 off per 675 points), exclusive sets, and VIP experiences. Members also get early access to new releases and exclusive offers. For Technic collectors spending $200+, the rewards add up quickly.",
+    "relatedProducts": ["mclaren-p1-42172", "ferrari-daytona-sp3-42143", "red-bull-rb20-42206"],
+    "category": "value"
+  }
+]

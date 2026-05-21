@@ -1,214 +1,343 @@
 [
   {
-    "id": "42172",
+    "id": "mclaren-p1-42172",
     "name": "McLaren P1™",
     "price": "$449.99",
     "priceNum": 449.99,
     "pieces": 3893,
     "age": "18+",
     "category": "Technic / Supercars",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png?fit=crop&quality=80&width=800&height=800&dpr=1",
-    "url": "https://www.lego.com/en-us/product/mclaren-p1-42172",
-    "description": "Ignite your love for supercars with this engaging LEGO® Technic™ McLaren P1™ hypercar set for adults. Become immersed in the details as you construct the impressive 1:8 scale model.",
-    "features": ["Dihedral doors", "Steering", "Rear Wing Spoiler", "Suspension", "V8 Engine", "Removable Rear Hood", "Single Central Exhaust"],
     "scale": "1:8",
     "dimensions": {"height": "14 cm", "width": "25 cm", "depth": "59 cm"},
     "insidersPoints": 2925,
-    "badge": "Ultimate"
+    "badge": "Ultimate",
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/bltaf11a3ec76040cc5/42172_boxprod_v39_sha.jpg?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/bltbf9cfe344df7d757/42172_Left_01.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
+    "url": "https://www.lego.com/en-us/product/mclaren-p1-42172",
+    "description": "Ignite your love for supercars with this breathtaking 1:8 scale LEGO Technic McLaren P1 hypercar. With 3,893 pieces, this Ultimate-level build features an authentic V8 engine with moving pistons, dihedral doors that open just like the real car, functional steering and suspension, and a rear wing spoiler. A true engineering masterpiece for adult builders who demand the most complex and rewarding building experience.",
+    "features": ["Dihedral doors that open like the real P1", "Functional steering system", "Rear wing spoiler with adjustable angle", "Working suspension", "V8 engine with moving pistons", "Removable rear hood for engine display"],
+    "highlights": ["The ultimate 1:8 scale hypercar experience with 3,893 pieces", "Officially licensed McLaren collaboration with authentic design details", "2,925 LEGO Insiders points — the highest-earning Technic set"],
+    "keywords": ["mclaren", "mclaren p1", "supercar", "hypercar", "technic", "18+", "ultimate", "1:8 scale", "collector", "display model", "engineering", "adult lego"],
+    "persona": "afol-motorsport",
+    "useCase": "premium-display-build"
   },
   {
-    "id": "42143",
+    "id": "ferrari-daytona-sp3-42143",
     "name": "Ferrari Daytona SP3",
     "price": "$449.99",
     "priceNum": 449.99,
     "pieces": 3778,
     "age": "18+",
     "category": "Technic / Supercars",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/bltb862bc546852bd71/42143.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": "Ultimate",
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/bltb862bc546852bd71/42143.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/bltb862bc546852bd71/42143.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/ferrari-daytona-sp3-42143",
-    "description": "Build an icon of Italian automotive design with the LEGO Technic Ferrari Daytona SP3.",
-    "badge": "Ultimate"
+    "description": "Build an icon of Italian automotive design with the LEGO Technic Ferrari Daytona SP3. This stunning 3,778-piece Ultimate set recreates the legendary Ferrari Icona series car at 1:8 scale, featuring a working V12 engine, butterfly doors, functional 8-speed sequential gearbox, and independent suspension. A masterclass in Italian engineering translated into brick form.",
+    "features": ["Butterfly doors", "Working V12 engine with moving pistons", "8-speed sequential gearbox", "Front and rear independent suspension", "Functional steering", "Display stand included"],
+    "highlights": ["3,778-piece Ultimate Ferrari experience at 1:8 scale", "Part of the exclusive Ferrari Icona series — limited automotive legend", "Packed with working mechanical functions that mirror the real car"],
+    "keywords": ["ferrari", "ferrari daytona", "daytona sp3", "supercar", "italian", "technic", "18+", "ultimate", "1:8 scale", "collector", "v12", "adult lego"],
+    "persona": "afol-motorsport",
+    "useCase": "premium-display-build"
   },
   {
-    "id": "42206",
+    "id": "red-bull-rb20-42206",
     "name": "Oracle Red Bull Racing RB20 F1 Car",
     "price": "$229.99",
     "priceNum": 229.99,
     "pieces": 1642,
     "age": "18+",
     "category": "Technic / F1",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/bltca542b859ace5383/42206_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/bltca542b859ace5383/42206_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/bltca542b859ace5383/42206_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/oracle-red-bull-racing-rb20-f1-car-42206",
-    "description": "Build the championship-winning Oracle Red Bull Racing RB20 F1 car in LEGO Technic.",
-    "badge": null
+    "description": "Build the championship-winning Oracle Red Bull Racing RB20 — Max Verstappen's dominant 2024 Formula 1 machine. This 1,642-piece set captures the aerodynamic precision of the RB20 with authentic Red Bull livery, functional steering, suspension, and a detailed V6 engine. A must-have for F1 fans who follow the current grid.",
+    "features": ["Authentic Red Bull Racing 2024 livery", "Functional steering mechanism", "Working suspension system", "Detailed V6 power unit replica", "Aerodynamic floor and sidepod details", "Display stand with nameplate"],
+    "highlights": ["The championship-dominant RB20 in official Red Bull Racing colors", "1,642 pieces of precision F1 engineering for adult builders", "Perfect companion piece alongside McLaren and Ferrari F1 sets"],
+    "keywords": ["red bull", "rb20", "f1", "formula 1", "verstappen", "max verstappen", "technic", "18+", "racing", "f1 car", "2024 season", "oracle"],
+    "persona": "afol-motorsport",
+    "useCase": "brand-fan-collectible"
   },
   {
-    "id": "42228",
+    "id": "mclaren-mcl39-42228",
     "name": "McLaren MCL39 F1® Car",
     "price": "$229.99",
     "priceNum": 229.99,
     "pieces": null,
     "age": "18+",
     "category": "Technic / F1",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/bltac01ce3b2335370b/blt94fedcc1daf48b2a-42228_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/bltac01ce3b2335370b/blt94fedcc1daf48b2a-42228_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/bltac01ce3b2335370b/blt94fedcc1daf48b2a-42228_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/mclaren-mcl39-f1-car-42228",
-    "description": "Build the McLaren MCL39 F1 car — the papaya orange machine that races in the 2024 Formula 1 season.",
-    "badge": null
+    "description": "Build the McLaren MCL39 — the papaya orange machine driven by Lando Norris and Oscar Piastri in the 2024 Formula 1 season. This detailed Technic set captures the aggressive aerodynamics of the MCL39 with authentic McLaren Racing livery, working steering, suspension, and the signature papaya-and-black color scheme that stands out on any display shelf.",
+    "features": ["Authentic papaya orange McLaren Racing livery", "Working steering and suspension", "Detailed aerodynamic bodywork", "V6 hybrid power unit representation", "Front and rear wing with DRS detail", "Display stand with team nameplate"],
+    "highlights": ["Lando Norris's championship-contending MCL39 in iconic papaya orange", "Pairs perfectly with the McLaren P1 for a complete McLaren collection", "Authentic 2024 season livery — a piece of F1 history"],
+    "keywords": ["mclaren", "mcl39", "f1", "formula 1", "lando norris", "papaya", "technic", "18+", "racing", "norris", "piastri", "2024 f1"],
+    "persona": "afol-motorsport",
+    "useCase": "brand-fan-collectible"
   },
   {
-    "id": "42207",
+    "id": "ferrari-sf24-42207",
     "name": "Ferrari SF-24 F1 Car",
     "price": "$229.99",
     "priceNum": 229.99,
     "pieces": null,
     "age": "18+",
     "category": "Technic / F1",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt1dd4e21e38b03edd/42207_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/blt1dd4e21e38b03edd/42207_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blt1dd4e21e38b03edd/42207_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/ferrari-sf-24-f1-car-42207",
-    "description": "Build the Scuderia Ferrari SF-24 F1 car — Charles Leclerc and Carlos Sainz Jr.'s championship contender.",
-    "badge": null
+    "description": "Build the Scuderia Ferrari SF-24 — Charles Leclerc and Carlos Sainz Jr.'s 2024 championship contender. This Technic set recreates the prancing horse's latest F1 machine with its iconic red livery, working mechanical functions, and aerodynamic detailing that captures the spirit of Italian racing excellence.",
+    "features": ["Iconic Ferrari rosso corsa livery", "Functional steering system", "Working suspension", "Detailed V6 hybrid power unit", "Aerodynamic sidepods and floor", "Display stand with Ferrari branding"],
+    "highlights": ["The legendary Scuderia Ferrari in its 2024 F1 livery", "Perfect for Ferrari fans and F1 enthusiasts alike", "Pairs with the Daytona SP3 for the ultimate Ferrari collection"],
+    "keywords": ["ferrari", "sf-24", "f1", "formula 1", "leclerc", "charles leclerc", "sainz", "technic", "18+", "scuderia", "racing", "italian"],
+    "persona": "afol-motorsport",
+    "useCase": "brand-fan-collectible"
   },
   {
-    "id": "42171",
+    "id": "mercedes-f1-w14-42171",
     "name": "Mercedes-AMG F1 W14 E Performance",
     "price": "$219.99",
     "priceNum": 219.99,
     "pieces": 1642,
     "age": "18+",
     "category": "Technic / F1",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt2d0b04908f20c4fb/42171.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/blt2d0b04908f20c4fb/42171.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blt2d0b04908f20c4fb/42171.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/mercedes-amg-f1-w14-e-performance-42171",
-    "description": "Build the Mercedes-AMG Petronas F1 W14 — Lewis Hamilton and George Russell's 2023 challenger.",
-    "badge": null
+    "description": "Build the Mercedes-AMG Petronas F1 W14 — Lewis Hamilton and George Russell's 2023 challenger. This 1,642-piece Technic model captures the Silver Arrows' sleek livery, working steering and suspension, and the distinctive zero-sidepod design philosophy that made headlines. A tribute to one of F1's most legendary teams.",
+    "features": ["Authentic Mercedes-AMG Petronas silver livery", "Zero-sidepod aerodynamic design", "Functional steering and suspension", "V6 turbo-hybrid engine detail", "1,642-piece build experience", "Display stand with team nameplate"],
+    "highlights": ["Lewis Hamilton's Silver Arrow — a piece of F1 history", "The distinctive zero-sidepod design in buildable form", "1,642 pieces of precision engineering for Mercedes F1 fans"],
+    "keywords": ["mercedes", "mercedes f1", "w14", "hamilton", "lewis hamilton", "george russell", "silver arrows", "technic", "18+", "f1", "formula 1", "amg"],
+    "persona": "afol-motorsport",
+    "useCase": "brand-fan-collectible"
   },
   {
-    "id": "42231",
+    "id": "dodge-charger-fast-furious-42231",
     "name": "Fast and Furious Dodge Charger R/T Car",
     "price": "$159.99",
     "priceNum": 159.99,
     "pieces": null,
     "age": "18+",
     "category": "Technic / Movie Cars",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt79f919a7738e75f9/blt6a94296f3012a30e-42231_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": "New",
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/blt79f919a7738e75f9/blt6a94296f3012a30e-42231_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blt79f919a7738e75f9/blt6a94296f3012a30e-42231_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/fast-and-furious-dodge-charger-rt-car-42231",
-    "description": "Build the legendary Dodge Charger R/T from Fast and Furious in LEGO Technic.",
-    "badge": "New"
+    "description": "Build the legendary Dodge Charger R/T from Fast and Furious — Dom Toretto's iconic blacked-out muscle car. This Technic set captures the raw power and menacing stance of the 1970 Charger with its massive engine block, wide stance, and aggressive bodywork. A must-have for movie fans and muscle car enthusiasts.",
+    "features": ["Iconic blacked-out muscle car design", "Detailed V8 engine block visible through hood", "Working steering mechanism", "Aggressive wide-body stance", "Authentic Fast and Furious branding", "Display stand included"],
+    "highlights": ["Dom Toretto's legendary Dodge Charger from the Fast and Furious franchise", "NEW release — be first to build this iconic movie muscle car", "Perfect crossover gift for movie fans who love cars and LEGO"],
+    "keywords": ["fast and furious", "dodge charger", "dom toretto", "muscle car", "movie car", "vin diesel", "technic", "18+", "american muscle", "charger rt", "new release"],
+    "persona": "gift-buyer",
+    "useCase": "gift-for-car-lover"
   },
   {
-    "id": "42224",
+    "id": "porsche-911-gt3r-42224",
     "name": "Porsche 911 GT3 R REXY AO Racing Car",
     "price": "$149.99",
     "priceNum": 149.99,
     "pieces": null,
     "age": "18+",
     "category": "Technic / Race Cars",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt63b0cec2f9e3eccd/42224_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/blt63b0cec2f9e3eccd/42224_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blt63b0cec2f9e3eccd/42224_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/porsche-911-gt3-r-rexy-ao-racing-car-42224",
-    "description": "Build the Porsche 911 GT3 R in its iconic REXY AO Racing livery.",
-    "badge": null
+    "description": "Build the Porsche 911 GT3 R in its iconic REXY AO Racing livery — a fan-favorite endurance racing car. This Technic model brings the GT3 class competition car to life with its distinctive dinosaur livery, flat-six engine, rear-engine layout, and race-ready aerodynamics. A celebration of grassroots motorsport and independent racing teams.",
+    "features": ["Distinctive REXY AO Racing dinosaur livery", "Rear-mounted flat-six engine detail", "Working steering and suspension", "Race-ready aerodynamic package", "Wide rear wing and splitter", "Display configuration option"],
+    "highlights": ["The internet-famous REXY livery — one of the most recognizable GT cars", "Porsche 911 GT3 R endurance racer with authentic racing details", "Great mid-range Technic build for sports car and motorsport fans"],
+    "keywords": ["porsche", "911", "gt3", "rexy", "endurance racing", "gt racing", "technic", "18+", "porsche 911", "race car", "ao racing", "sports car"],
+    "persona": "afol-motorsport",
+    "useCase": "weekend-build-project"
   },
   {
-    "id": "42210",
+    "id": "nissan-skyline-r34-42210",
     "name": "2 Fast 2 Furious Nissan Skyline GT-R (R34) Car",
     "price": "$139.99",
     "priceNum": 139.99,
     "pieces": null,
     "age": "18+",
     "category": "Technic / Movie Cars",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt4281f045b5e8888c/42210_Prod.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/blt4281f045b5e8888c/42210_Prod.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blt4281f045b5e8888c/42210_Prod.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/2-fast-2-furious-nissan-skyline-gt-r-r34-car-42210",
-    "description": "Build Paul Walker's iconic Nissan Skyline GT-R (R34) from 2 Fast 2 Furious.",
-    "badge": null
+    "description": "Build Paul Walker's iconic silver-and-blue Nissan Skyline GT-R (R34) from 2 Fast 2 Furious. This Technic set recreates one of the most beloved JDM legends in movie history, featuring the signature two-tone livery, inline-six engine, and aggressive widebody kit. A tribute to both Paul Walker's legacy and Japanese automotive culture.",
+    "features": ["Iconic silver-and-blue 2 Fast 2 Furious livery", "Inline-six engine detail (RB26DETT representation)", "Widebody kit with aggressive fenders", "Working steering mechanism", "Authentic Fast and Furious branding", "Display stand included"],
+    "highlights": ["Paul Walker's legendary Skyline R34 — a JDM icon from 2 Fast 2 Furious", "Perfect gift for JDM enthusiasts and Fast and Furious fans", "Pairs with the Dodge Charger for a complete Fast and Furious collection"],
+    "keywords": ["nissan skyline", "r34", "gtr", "fast and furious", "paul walker", "jdm", "technic", "18+", "japanese car", "skyline", "2 fast 2 furious", "tuner"],
+    "persona": "gift-buyer",
+    "useCase": "gift-for-car-lover"
   },
   {
-    "id": "42154",
+    "id": "ford-gt-2022-42154",
     "name": "2022 Ford GT",
     "price": "$119.99",
     "priceNum": 119.99,
     "pieces": null,
     "age": "18+",
     "category": "Technic / Supercars",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt5014244d8d8dc8ad/42154.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/blt5014244d8d8dc8ad/42154.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blt5014244d8d8dc8ad/42154.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/2022-ford-gt-42154",
-    "description": "Build the sleek 2022 Ford GT with its striking aerodynamic body.",
-    "badge": null
+    "description": "Build the sleek 2022 Ford GT with its striking aerodynamic body and Le Mans racing heritage. This Technic set captures the mid-engine American supercar with working suspension, opening doors, and the distinctive flying buttress rear design. An accessible entry into premium Technic supercars with authentic Ford Performance engineering details.",
+    "features": ["Aerodynamic flying buttress rear design", "Opening doors", "Working suspension system", "Mid-engine layout detail", "Functional steering", "Authentic Ford GT proportions"],
+    "highlights": ["Accessible $119.99 price point for a premium supercar build", "Le Mans heritage in a buildable Technic model", "Great stepping stone to the Ultimate-tier McLaren and Ferrari sets"],
+    "keywords": ["ford gt", "ford", "supercar", "le mans", "american supercar", "technic", "18+", "mid-engine", "sports car", "ford performance", "display model"],
+    "persona": "returning-builder",
+    "useCase": "weekend-build-project"
   },
   {
-    "id": "42222",
+    "id": "bugatti-chiron-pur-sport-42222",
     "name": "Bugatti Chiron Pur Sport Hypercar",
     "price": "$64.99",
     "priceNum": 64.99,
     "pieces": null,
     "age": "9+",
     "category": "Technic / Supercars",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt0a9009b95130ef89/42222_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/blt0a9009b95130ef89/42222_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blt0a9009b95130ef89/42222_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/bugatti-chiron-pur-sport-hypercar-42222",
-    "description": "Build the Bugatti Chiron Pur Sport hypercar — a lightweight track weapon.",
-    "badge": null
+    "description": "Build the Bugatti Chiron Pur Sport — a lightweight track-focused hypercar designed for pure driving pleasure. This accessible Technic set introduces younger builders and newcomers to the world of hypercar engineering with the Bugatti brand's signature horseshoe grille, dramatic body lines, and the iconic Pur Sport rear wing.",
+    "features": ["Signature Bugatti horseshoe grille", "Pur Sport fixed rear wing", "Working steering mechanism", "Opening doors", "Authentic Bugatti proportions", "Display-worthy build"],
+    "highlights": ["Bugatti hypercar experience at an accessible $64.99 price point", "Perfect first Technic supercar for ages 9+ or new adult builders", "Authentic Bugatti branding and design language"],
+    "keywords": ["bugatti", "chiron", "pur sport", "hypercar", "technic", "affordable", "entry level", "supercar", "gift", "under 100", "kids technic", "bugatti chiron"],
+    "persona": "returning-builder",
+    "useCase": "gift-for-car-lover"
   },
   {
-    "id": "42226",
+    "id": "bmw-m4-gt3-evo-42226",
     "name": "BMW M4 GT3 EVO Race Car",
     "price": "$64.99",
     "priceNum": 64.99,
     "pieces": null,
     "age": "9+",
     "category": "Technic / Race Cars",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/bltb53d1567fcd649c0/42226_Prod.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/bltb53d1567fcd649c0/42226_Prod.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/bltb53d1567fcd649c0/42226_Prod.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/bmw-m4-gt3-evo-race-car-42226",
-    "description": "Build the BMW M4 GT3 EVO race car — a precision track machine.",
-    "badge": null
+    "description": "Build the BMW M4 GT3 EVO — a precision track machine that dominates GT racing worldwide. This Technic set captures the aggressive race-spec bodywork, massive rear wing, and BMW M Motorsport livery. An accessible introduction to endurance racing cars for younger builders and adults seeking a quick, rewarding build.",
+    "features": ["BMW M Motorsport racing livery", "Large rear wing and front splitter", "Working steering mechanism", "Race-spec bodywork details", "Wide racing slick representation", "Display-ready build"],
+    "highlights": ["Official BMW M Motorsport collaboration", "Accessible GT racing car at $64.99", "Quick build that still delivers authentic motorsport details"],
+    "keywords": ["bmw", "m4", "gt3", "bmw motorsport", "race car", "gt racing", "technic", "endurance", "track car", "affordable", "bmw m4", "evo"],
+    "persona": "returning-builder",
+    "useCase": "weekend-build-project"
   },
   {
-    "id": "42229",
+    "id": "mitsubishi-eclipse-fast-furious-42229",
     "name": "Fast and Furious Mitsubishi Eclipse Car",
     "price": "$64.99",
     "priceNum": 64.99,
     "pieces": null,
     "age": "9+",
     "category": "Technic / Movie Cars",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blteef6e0987044f2f6/bltfaea35d387a1edf7-42229_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": "New",
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/blteef6e0987044f2f6/bltfaea35d387a1edf7-42229_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blteef6e0987044f2f6/bltfaea35d387a1edf7-42229_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/fast-and-furious-mitsubishi-eclipse-car-42229",
-    "description": "Build Brian O'Conner's Mitsubishi Eclipse from The Fast and the Furious.",
-    "badge": "New"
+    "description": "Build Brian O'Conner's green Mitsubishi Eclipse from the original Fast and the Furious movie — the car that started it all. This accessible Technic set recreates the iconic neon-green tuner with its distinctive body kit, aftermarket hood scoop, and signature graphics. A perfect entry point for younger Fast and Furious fans.",
+    "features": ["Iconic neon-green Fast and Furious livery", "Custom body kit details", "Aftermarket hood scoop", "Working steering", "Authentic movie graphics", "Display stand included"],
+    "highlights": ["The car that launched the Fast and Furious franchise", "NEW release — affordable entry into the Fast and Furious collection", "Accessible 9+ build for younger movie fans and car enthusiasts"],
+    "keywords": ["fast and furious", "mitsubishi eclipse", "brian oconner", "tuner", "jdm", "movie car", "technic", "new release", "affordable", "green eclipse", "street racing", "gift"],
+    "persona": "gift-buyer",
+    "useCase": "gift-for-car-lover"
   },
   {
-    "id": "42217",
+    "id": "corvette-stingray-42217",
     "name": "Chevrolet Corvette Stingray Blue",
     "price": "$59.99",
     "priceNum": 59.99,
     "pieces": null,
     "age": "9+",
     "category": "Technic / Sports Cars",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt15a8d15cbeca62b4/42217_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/blt15a8d15cbeca62b4/42217_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blt15a8d15cbeca62b4/42217_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/chevrolet-corvette-stingray-blue-42217",
-    "description": "Build a classic American sports car — the Chevrolet Corvette Stingray in Elkhart Lake Blue.",
-    "badge": null
+    "description": "Build the Chevrolet Corvette Stingray in stunning Elkhart Lake Blue — an American sports car icon. This Technic set captures the C8 Corvette's mid-engine design, aggressive stance, and signature design cues at an accessible price point. Perfect for anyone who loves American performance cars or wants a quick, satisfying build with impressive shelf presence.",
+    "features": ["Elkhart Lake Blue color scheme", "Mid-engine C8 Corvette proportions", "Working steering mechanism", "Opening engine cover", "Authentic Corvette design cues", "Display-worthy build"],
+    "highlights": ["America's iconic sports car in buildable Technic form", "Accessible $59.99 price — great entry into Technic", "Eye-catching Elkhart Lake Blue for display"],
+    "keywords": ["corvette", "chevrolet", "stingray", "c8", "american", "sports car", "technic", "mid-engine", "affordable", "blue", "muscle car", "chevy"],
+    "persona": "returning-builder",
+    "useCase": "weekend-build-project"
   },
   {
-    "id": "42223",
+    "id": "ford-gt40-1966-42223",
     "name": "1966 Ford GT40 MKII Race Car",
     "price": "$74.99",
     "priceNum": 74.99,
     "pieces": null,
     "age": "10+",
     "category": "Technic / Race Cars",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/bltfedfb750ecdecbc5/42223_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/bltfedfb750ecdecbc5/42223_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/bltfedfb750ecdecbc5/42223_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/1966-ford-gt40-mkii-race-car-42223",
-    "description": "Build the legendary 1966 Ford GT40 MKII — the Le Mans winning machine.",
-    "badge": null
+    "description": "Build the legendary 1966 Ford GT40 MKII — the Le Mans-winning machine that ended Ferrari's dominance. This Technic set brings to life one of motorsport's most legendary cars, capturing the low-slung proportions, Gulf-style racing livery, and the raw engineering that shocked the racing world. A piece of racing history for your display shelf.",
+    "features": ["Iconic 1966 Le Mans livery", "Low-slung GT40 proportions", "Working steering", "Opening doors", "Vintage racing details", "Display-ready build"],
+    "highlights": ["The car that beat Ferrari at Le Mans — motorsport legend brought to life", "Racing heritage story: Ford v Ferrari in buildable form", "Accessible mid-range price with legendary racing pedigree"],
+    "keywords": ["ford gt40", "le mans", "1966", "vintage racing", "ford v ferrari", "classic race car", "technic", "endurance racing", "gulf", "motorsport history", "racing legend"],
+    "persona": "afol-motorsport",
+    "useCase": "weekend-build-project"
   },
   {
-    "id": "42242",
+    "id": "mercedes-unimog-42242",
     "name": "Mercedes-Benz Unimog U 5023 with Crane",
     "price": "$129.99",
     "priceNum": 129.99,
     "pieces": null,
     "age": "10+",
     "category": "Technic / Trucks",
-    "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt36ccf949a52bd6b8/blt1f0950849c012eee-42242_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "badge": null,
+    "images": [
+      "https://www.lego.com/cdn/cs/set/assets/blt36ccf949a52bd6b8/blt1f0950849c012eee-42242_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blt36ccf949a52bd6b8/blt1f0950849c012eee-42242_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+    ],
     "url": "https://www.lego.com/en-us/product/mercedes-benz-unimog-u-5023-with-crane-42242",
-    "description": "Build the versatile Mercedes-Benz Unimog U 5023 with its working crane.",
-    "badge": null
+    "description": "Build the versatile Mercedes-Benz Unimog U 5023 with its fully functional crane — the ultimate utility vehicle in Technic form. This set features pneumatic-powered crane operation, working suspension, portal axles for extreme terrain capability, and authentic Mercedes-Benz Unimog detailing. A different kind of engineering challenge for builders who love functional mechanisms.",
+    "features": ["Pneumatic-powered crane operation", "Portal axles for extreme articulation", "Working suspension system", "Functional steering", "Authentic Mercedes-Benz Unimog details", "Multiple working mechanisms"],
+    "highlights": ["Pneumatic power — a unique mechanical experience in the Technic line", "Mercedes-Benz Unimog engineering in buildable form", "Something different from supercars — for builders who love mechanisms"],
+    "keywords": ["unimog", "mercedes", "truck", "crane", "technic", "pneumatic", "utility vehicle", "off-road", "working mechanisms", "mercedes benz", "heavy equipment", "functional"],
+    "persona": "returning-builder",
+    "useCase": "weekend-build-project"
   }
 ]

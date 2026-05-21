@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Config Review — lego.com</title>
+<meta charset="utf-8"/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --bg: #1C1917; --fg: #F5F0E8; --accent: #FF3D00; --teal: #00E5A0;
+  --fg-dim: rgba(245,240,232,0.55); --border: rgba(245,240,232,0.1);
+  --heading-font: "Cormorant Garamond", serif; --body-font: "JetBrains Mono", monospace;
+  --yellow: #FFD500; --red: #D0021B;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--fg); font-family: var(--body-font); font-size: 11px; line-height: 1.6; }
+.page { max-width: 1200px; margin: 0 auto; padding: 32px 24px; }
+h1 { font-family: var(--heading-font); font-size: 2.4rem; font-weight: 700; margin-bottom: 4px; }
+.subtitle { color: var(--fg-dim); margin-bottom: 40px; font-size: 12px; }
+h2 { font-family: var(--heading-font); font-size: 1.5rem; margin-bottom: 16px; color: var(--teal); }
+.section { margin-bottom: 48px; padding-bottom: 48px; border-bottom: 1px solid var(--border); }
+.prod-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px,1fr)); gap: 12px; }
+.prod-card { background: rgba(245,240,232,0.04); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.prod-card img { width: 100%; aspect-ratio: 1; object-fit: cover; background: #111; }
+.no-img { width: 100%; aspect-ratio: 1; background: #2a2a2a; display: flex; align-items: center; justify-content: center; color: var(--accent); font-size: 10px; }
+.prod-info { padding: 10px; }
+.prod-name { font-weight: 700; font-size: 10px; margin-bottom: 4px; color: var(--fg); }
+.prod-price { color: var(--yellow); font-weight: 700; margin-bottom: 4px; }
+.prod-meta { color: var(--fg-dim); font-size: 9px; margin-bottom: 6px; }
+.prod-keywords { display: flex; flex-wrap: wrap; gap: 3px; }
+.kw { background: rgba(245,240,232,0.08); border-radius: 100px; padding: 2px 6px; font-size: 9px; color: var(--fg-dim); }
+.persona-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px,1fr)); gap: 12px; }
+.persona-card { background: rgba(245,240,232,0.04); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+.persona-name { font-weight: 700; font-size: 12px; margin-bottom: 2px; }
+.persona-id { color: var(--teal); font-size: 9px; margin-bottom: 8px; }
+.persona-card p { color: var(--fg-dim); font-size: 10px; margin-bottom: 10px; }
+.kw-list { display: flex; flex-wrap: wrap; gap: 3px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.chip { background: var(--yellow); color: #000; border-radius: 100px; padding: 5px 12px; font-weight: 700; font-size: 10px; }
+.search-ui { background: rgba(245,240,232,0.04); border: 1px solid var(--border); border-radius: 8px; padding: 20px; }
+.search-title { font-family: var(--heading-font); font-size: 1.6rem; font-weight: 700; margin-bottom: 4px; }
+.search-sub { color: var(--fg-dim); font-size: 11px; margin-bottom: 16px; }
+.voice-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.voice-card { background: rgba(245,240,232,0.04); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+.voice-label { color: var(--teal); font-size: 9px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+.voice-value { color: var(--fg); font-size: 11px; }
+.block-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.block-pill { background: rgba(0,229,160,0.15); color: var(--teal); border: 1px solid rgba(0,229,160,0.3); border-radius: 4px; padding: 4px 10px; font-size: 10px; }
+.uc-row { background: rgba(245,240,232,0.04); border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px; margin-bottom: 8px; }
+.uc-row strong { font-size: 11px; display: block; margin-bottom: 6px; color: var(--fg); }
+.cta-preview { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.cta-preview-label { background: rgba(245,240,232,0.06); padding: 8px 16px; font-size: 9px; color: var(--fg-dim); text-transform: uppercase; letter-spacing: 1px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Config Review — lego.com</h1>
+  <div class="subtitle">Review all configuration before deploying to the OF1 worker. Approve or request revisions.</div>
+
+  <div class="section">
+    <h2>1. Block Guide (6 blocks selected)</h2>
+    <p style="color:var(--fg-dim);margin-bottom:12px;font-size:10px;">These blocks are a subset of the full block catalog. The OF1 worker will use only these blocks for generative content.</p>
+    <div class="block-pills"><span class="block-pill">lego-hero</span> <span class="block-pill">product-grid</span> <span class="block-pill">product-carousel</span> <span class="block-pill">columns</span> <span class="block-pill">loyalty-cta</span> <span class="block-pill">designer-quote</span></div>
+  </div>
+
+  <div class="section">
+    <h2>2. Products (16 Technic sets)</h2>
+    <div class="prod-grid">
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="McLaren P1™" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">McLaren P1™</div>
+        <div class="prod-price">$$449.99</div>
+        <div class="prod-meta">Technic / Supercars · 3893 pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>mclaren</span> <span class=kw>mclaren p1</span> <span class=kw>supercar</span> <span class=kw>hypercar</span> <span class=kw>technic</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/bltb862bc546852bd71/42143.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Ferrari Daytona SP3" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">Ferrari Daytona SP3</div>
+        <div class="prod-price">$$449.99</div>
+        <div class="prod-meta">Technic / Supercars · 3778 pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>ferrari</span> <span class=kw>ferrari daytona</span> <span class=kw>daytona sp3</span> <span class=kw>supercar</span> <span class=kw>italian</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/bltca542b859ace5383/42206_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Oracle Red Bull Racing RB20 F1 Car" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">Oracle Red Bull Racing RB20 F1 Car</div>
+        <div class="prod-price">$$229.99</div>
+        <div class="prod-meta">Technic / F1 · 1642 pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>red bull</span> <span class=kw>rb20</span> <span class=kw>f1</span> <span class=kw>formula 1</span> <span class=kw>verstappen</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/bltac01ce3b2335370b/blt94fedcc1daf48b2a-42228_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="McLaren MCL39 F1® Car" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">McLaren MCL39 F1® Car</div>
+        <div class="prod-price">$$229.99</div>
+        <div class="prod-meta">Technic / F1 · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>mclaren</span> <span class=kw>mcl39</span> <span class=kw>f1</span> <span class=kw>formula 1</span> <span class=kw>lando norris</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blt1dd4e21e38b03edd/42207_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Ferrari SF-24 F1 Car" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">Ferrari SF-24 F1 Car</div>
+        <div class="prod-price">$$229.99</div>
+        <div class="prod-meta">Technic / F1 · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>ferrari</span> <span class=kw>sf-24</span> <span class=kw>f1</span> <span class=kw>formula 1</span> <span class=kw>leclerc</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blt2d0b04908f20c4fb/42171.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Mercedes-AMG F1 W14 E Performance" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">Mercedes-AMG F1 W14 E Performance</div>
+        <div class="prod-price">$$219.99</div>
+        <div class="prod-meta">Technic / F1 · 1642 pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>mercedes</span> <span class=kw>mercedes f1</span> <span class=kw>w14</span> <span class=kw>hamilton</span> <span class=kw>lewis hamilton</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blt79f919a7738e75f9/blt6a94296f3012a30e-42231_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Fast and Furious Dodge Charger R/T Car" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">Fast and Furious Dodge Charger R/T Car</div>
+        <div class="prod-price">$$159.99</div>
+        <div class="prod-meta">Technic / Movie Cars · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>fast and furious</span> <span class=kw>dodge charger</span> <span class=kw>dom toretto</span> <span class=kw>muscle car</span> <span class=kw>movie car</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blt63b0cec2f9e3eccd/42224_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Porsche 911 GT3 R REXY AO Racing Car" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">Porsche 911 GT3 R REXY AO Racing Car</div>
+        <div class="prod-price">$$149.99</div>
+        <div class="prod-meta">Technic / Race Cars · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>porsche</span> <span class=kw>911</span> <span class=kw>gt3</span> <span class=kw>rexy</span> <span class=kw>endurance racing</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blt4281f045b5e8888c/42210_Prod.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="2 Fast 2 Furious Nissan Skyline GT-R (R34) Car" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">2 Fast 2 Furious Nissan Skyline GT-R (R34) Car</div>
+        <div class="prod-price">$$139.99</div>
+        <div class="prod-meta">Technic / Movie Cars · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>nissan skyline</span> <span class=kw>r34</span> <span class=kw>gtr</span> <span class=kw>fast and furious</span> <span class=kw>paul walker</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blt5014244d8d8dc8ad/42154.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="2022 Ford GT" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">2022 Ford GT</div>
+        <div class="prod-price">$$119.99</div>
+        <div class="prod-meta">Technic / Supercars · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>ford gt</span> <span class=kw>ford</span> <span class=kw>supercar</span> <span class=kw>le mans</span> <span class=kw>american supercar</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blt0a9009b95130ef89/42222_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Bugatti Chiron Pur Sport Hypercar" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">Bugatti Chiron Pur Sport Hypercar</div>
+        <div class="prod-price">$$64.99</div>
+        <div class="prod-meta">Technic / Supercars · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>bugatti</span> <span class=kw>chiron</span> <span class=kw>pur sport</span> <span class=kw>hypercar</span> <span class=kw>technic</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/bltb53d1567fcd649c0/42226_Prod.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="BMW M4 GT3 EVO Race Car" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">BMW M4 GT3 EVO Race Car</div>
+        <div class="prod-price">$$64.99</div>
+        <div class="prod-meta">Technic / Race Cars · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>bmw</span> <span class=kw>m4</span> <span class=kw>gt3</span> <span class=kw>bmw motorsport</span> <span class=kw>race car</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blteef6e0987044f2f6/bltfaea35d387a1edf7-42229_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Fast and Furious Mitsubishi Eclipse Car" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">Fast and Furious Mitsubishi Eclipse Car</div>
+        <div class="prod-price">$$64.99</div>
+        <div class="prod-meta">Technic / Movie Cars · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>fast and furious</span> <span class=kw>mitsubishi eclipse</span> <span class=kw>brian oconner</span> <span class=kw>tuner</span> <span class=kw>jdm</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blt15a8d15cbeca62b4/42217_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Chevrolet Corvette Stingray Blue" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">Chevrolet Corvette Stingray Blue</div>
+        <div class="prod-price">$$59.99</div>
+        <div class="prod-meta">Technic / Sports Cars · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>corvette</span> <span class=kw>chevrolet</span> <span class=kw>stingray</span> <span class=kw>c8</span> <span class=kw>american</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/bltfedfb750ecdecbc5/42223_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="1966 Ford GT40 MKII Race Car" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">1966 Ford GT40 MKII Race Car</div>
+        <div class="prod-price">$$74.99</div>
+        <div class="prod-meta">Technic / Race Cars · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>ford gt40</span> <span class=kw>le mans</span> <span class=kw>1966</span> <span class=kw>vintage racing</span> <span class=kw>ford v ferrari</span></div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/blt36ccf949a52bd6b8/blt1f0950849c012eee-42242_Prod_en-gb.png?fit=crop&quality=80&width=800&height=800&dpr=1" alt="Mercedes-Benz Unimog U 5023 with Crane" onerror="this.style.background='#333';this.alt='Image missing'" />
+      <div class="prod-info">
+        <div class="prod-name">Mercedes-Benz Unimog U 5023 with Crane</div>
+        <div class="prod-price">$$129.99</div>
+        <div class="prod-meta">Technic / Trucks · None pcs · Ages ?</div>
+        <div class="prod-keywords"><span class=kw>unimog</span> <span class=kw>mercedes</span> <span class=kw>truck</span> <span class=kw>crane</span> <span class=kw>technic</span></div>
+      </div>
+    </div></div>
+  </div>
+
+  <div class="section">
+    <h2>3. Brand Voice</h2>
+    <div class="voice-grid">
+      <div class="voice-card"><div class="voice-label">Personality</div><div class="voice-value">playful, inspiring, inclusive, passionate, empowering</div></div>
+      <div class="voice-card"><div class="voice-label">Sentence Style</div><div class="voice-value">Short, punchy headlines (2-6 words) paired with one-sentence descriptions that spark imagination. Product copy uses imperative verbs: Build, Drive, Ignite, Explore, Discover. Longer paragraphs are warm and conversational but never rambling — always anchored by a concrete detail or emotional benefit.</div></div>
+      <div class="voice-card"><div class="voice-label">Vocabulary</div><div class="kw-list"><span class="kw">build</span> <span class="kw">bricks</span> <span class="kw">set</span> <span class="kw">pieces</span> <span class="kw">display</span> <span class="kw">Insiders</span> <span class="kw">minifigure</span> <span class="kw">scale model</span> <span class="kw">theme</span> <span class="kw">ages 18+</span> <span class="kw">builders of tomorrow</span> <span class="kw">Learning Through Play</span> <span class="kw">immersed in the details</span> <span class="kw">LEGO Technic</span> <span class="kw">exclusive</span></div></div>
+      <div class="voice-card"><div class="voice-label">Avoid Words</div><div class="kw-list"><span class="kw" style="color:var(--accent)">cheap</span> <span class="kw" style="color:var(--accent)">toy box</span> <span class="kw" style="color:var(--accent)">plastic junk</span> <span class="kw" style="color:var(--accent)">kids' stuff</span> <span class="kw" style="color:var(--accent)">simple</span> <span class="kw" style="color:var(--accent)">basic</span> <span class="kw" style="color:var(--accent)">ordinary</span> <span class="kw" style="color:var(--accent)">disposable</span> <span class="kw" style="color:var(--accent)">childish</span> <span class="kw" style="color:var(--accent)">just a toy</span> <span class="kw" style="color:var(--accent)">boring</span> <span class="kw" style="color:var(--accent)">old-fashioned</span> <span class="kw" style="color:var(--accent)">mass-produced</span></div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>4. Personas (4)</h2>
+    <div class="persona-grid">
+    <div class="persona-card">
+      <div class="persona-name">Marcus — Motorsport Enthusiast / AFOL</div>
+      <div class="persona-id">afol-motorsport</div>
+      <p>Software engineer who watches F1 every weekend and follows supercar channels on YouTube. Owns 4 Technic sets, displays them on a dedicated shelf. LEGO Insiders member with 3,200 points. Wants the most complex, authentic builds with real engineering detail.</p>
+      <div class="kw-list"><span class="kw">technic</span> <span class="kw">supercar</span> <span class="kw">mclaren</span> <span class="kw">ferrari</span> <span class="kw">f1</span> <span class="kw">formula 1</span> <span class="kw">complex build</span> <span class="kw">display piece</span></div>
+    </div>
+    <div class="persona-card">
+      <div class="persona-name">Priya — Gift Buyer</div>
+      <div class="persona-id">gift-buyer</div>
+      <p>Product designer buying for partner who loves cars and LEGO. Needs gift guidance — price ranges, difficulty levels, what's new and exclusive. Looking for something impressive that says 'I thought about this.'</p>
+      <div class="kw-list"><span class="kw">gift</span> <span class="kw">gift for him</span> <span class="kw">car lover gift</span> <span class="kw">bestseller</span> <span class="kw">exclusive</span> <span class="kw">limited edition</span> <span class="kw">popular</span> <span class="kw">new release</span></div>
+    </div>
+    <div class="persona-card">
+      <div class="persona-name">Jake — Returning Builder</div>
+      <div class="persona-id">returning-builder</div>
+      <p>Played with LEGO as a kid, rediscovering the hobby as an adult. Wants a curated entry point — something iconic and rewarding but not overwhelming. Looking for that sweet spot between challenge and accessibility.</p>
+      <div class="kw-list"><span class="kw">getting started</span> <span class="kw">best value</span> <span class="kw">first technic set</span> <span class="kw">adult sets</span> <span class="kw">what's popular</span> <span class="kw">iconic</span> <span class="kw">classic cars</span> <span class="kw">corvette</span></div>
+    </div>
+    <div class="persona-card">
+      <div class="persona-name">Tyler — Movie Fan & Pop Culture Collector</div>
+      <div class="persona-id">movie-fan-collector</div>
+      <p>Film buff and pop culture collector who buys LEGO sets tied to franchises he loves. Grew up watching Fast and Furious, now wants the cars on his shelf. Cross-shops with other movie merchandise and gaming collectibles. Responds strongly to 'NEW' badges and franchise tie-ins.</p>
+      <div class="kw-list"><span class="kw">fast and furious</span> <span class="kw">movie cars</span> <span class="kw">paul walker</span> <span class="kw">dom toretto</span> <span class="kw">dodge charger</span> <span class="kw">skyline r34</span> <span class="kw">eclipse</span> <span class="kw">franchise</span></div>
+    </div></div>
+  </div>
+
+  <div class="section">
+    <h2>5. Suggestions (12 chips)</h2>
+    <div class="search-ui">
+      <div class="search-title">Build What You Love</div>
+      <div class="search-sub">Discover LEGO Technic supercars, F1 machines, and iconic builds — tailored to your passion.</div>
+      <div class="chips"><div class="chip">Tell me about the McLaren P1</div><div class="chip">McLaren P1 vs Ferrari Daytona</div><div class="chip">Best supercar for a new builder</div><div class="chip">Show me Technic supercars</div><div class="chip">Technic cars under $100</div><div class="chip">Gift for a car enthusiast</div><div class="chip">F1 and racing sets</div><div class="chip">Most challenging Technic build</div><div class="chip">Fast & Furious collection</div><div class="chip">Which F1 car should I build?</div><div class="chip">Weekend build under $150</div><div class="chip">New Technic releases</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>6. Use Cases (6)</h2>
+    <div class="uc-row"><strong>Premium Display Build</strong><div class="kw-list"><span class="kw">ultimate set</span> <span class="kw">display piece</span> <span class="kw">premium</span> <span class="kw">collector</span> <span class="kw">1:8 scale</span> <span class="kw">complex build</span></div></div><div class="uc-row"><strong>Gift for a Car Lover</strong><div class="kw-list"><span class="kw">gift</span> <span class="kw">gift for him</span> <span class="kw">car lover</span> <span class="kw">birthday present</span> <span class="kw">christmas gift</span> <span class="kw">car enthusiast</span></div></div><div class="uc-row"><strong>Father's Day Gift</strong><div class="kw-list"><span class="kw">fathers day</span> <span class="kw">dad gift</span> <span class="kw">gift for dad</span> <span class="kw">father</span> <span class="kw">premium gift</span> <span class="kw">meaningful present</span></div></div><div class="uc-row"><strong>Weekend Build Project</strong><div class="kw-list"><span class="kw">weekend project</span> <span class="kw">solo build</span> <span class="kw">satisfying build</span> <span class="kw">how long to build</span> <span class="kw">one day build</span> <span class="kw">challenge</span></div></div><div class="uc-row"><strong>Brand Fan Collectible</strong><div class="kw-list"><span class="kw">mclaren fan</span> <span class="kw">ferrari fan</span> <span class="kw">red bull fan</span> <span class="kw">mercedes f1</span> <span class="kw">team fan</span> <span class="kw">f1 collection</span></div></div><div class="uc-row"><strong>F1 Season Follower</strong><div class="kw-list"><span class="kw">f1</span> <span class="kw">formula 1</span> <span class="kw">verstappen</span> <span class="kw">norris</span> <span class="kw">leclerc</span> <span class="kw">hamilton</span></div></div>
+  </div>
+
+  <div class="section">
+    <h2>7. CTA Template</h2>
+    <div class="cta-preview">
+      <div class="cta-preview-label">Preview with fallback content</div>
+      <div style="background-color:#1A1A1A;padding:3.5rem 2rem;text-align:center;margin:0;border-radius:0;"><h2 style="color:#FFFFFF;font-family:'Cera Pro',system-ui,-apple-system,sans-serif;font-size:2rem;font-weight:700;margin:0 0 1rem 0;line-height:1.2;">Find Your Perfect Build</h2><p style="color:#B0B0B0;font-family:'Cera Pro',system-ui,-apple-system,sans-serif;font-size:1.1rem;margin:0 auto 2rem auto;max-width:520px;line-height:1.5;">Discover LEGO Technic sets matched to your interests — from supercars to F1 machines.</p><a href="#" style="display:inline-block;background-color:#D0021B;color:#FFFFFF;font-family:'Cera Pro',system-ui,-apple-system,sans-serif;font-size:1rem;font-weight:700;padding:0.85rem 2rem;border-radius:4px;text-decoration:none;text-transform:none;letter-spacing:0;">Explore Sets</a></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

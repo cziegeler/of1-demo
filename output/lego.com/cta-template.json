@@ -1,0 +1,9 @@
+{
+  "html": "<div style=\"background-color:#1A1A1A;padding:3.5rem 2rem;text-align:center;margin:0;border-radius:0;\"><h2 style=\"color:#FFFFFF;font-family:'Cera Pro',system-ui,-apple-system,sans-serif;font-size:2rem;font-weight:700;margin:0 0 1rem 0;line-height:1.2;\">{{title}}</h2><p style=\"color:#B0B0B0;font-family:'Cera Pro',system-ui,-apple-system,sans-serif;font-size:1.1rem;margin:0 auto 2rem auto;max-width:520px;line-height:1.5;\">{{description}}</p><a href=\"{{href}}\" style=\"display:inline-block;background-color:#D0021B;color:#FFFFFF;font-family:'Cera Pro',system-ui,-apple-system,sans-serif;font-size:1rem;font-weight:700;padding:0.85rem 2rem;border-radius:4px;text-decoration:none;text-transform:none;letter-spacing:0;\">{{buttonText}}</a></div>",
+  "slots": ["title", "description", "buttonText"],
+  "fallback": {
+    "title": "Find Your Perfect Build",
+    "description": "Discover LEGO Technic sets matched to your interests — from supercars to F1 machines.",
+    "buttonText": "Explore Sets"
+  }
+}

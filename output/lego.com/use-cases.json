@@ -1,0 +1,50 @@
+[
+  {
+    "id": "premium-display-build",
+    "name": "Premium Display Build",
+    "description": "Adult builder seeking the most complex, impressive Technic set as a display-worthy engineering masterpiece. Willing to invest $400+ for the ultimate building experience and a showpiece for their collection shelf.",
+    "keywords": ["ultimate set", "display piece", "premium", "collector", "1:8 scale", "complex build", "engineering", "masterpiece", "best technic set", "most pieces", "highest rated", "trophy build"],
+    "recommendedProducts": ["mclaren-p1-42172", "ferrari-daytona-sp3-42143"],
+    "relatedPersonas": ["afol-motorsport"]
+  },
+  {
+    "id": "gift-for-car-lover",
+    "name": "Gift for a Car Lover",
+    "description": "Buying a gift for someone who loves cars, motorsport, or specific automotive brands. Needs guidance on what's impressive, what's new, and what fits their budget — from $65 to $230.",
+    "keywords": ["gift", "gift for him", "car lover", "birthday present", "christmas gift", "car enthusiast", "what to buy", "impressive gift", "partner gift", "husband gift", "boyfriend gift", "car fan"],
+    "recommendedProducts": ["dodge-charger-fast-furious-42231", "nissan-skyline-r34-42210", "porsche-911-gt3r-42224", "ford-gt-2022-42154", "mitsubishi-eclipse-fast-furious-42229", "bugatti-chiron-pur-sport-42222"],
+    "relatedPersonas": ["gift-buyer"]
+  },
+  {
+    "id": "fathers-day-gift",
+    "name": "Father's Day Gift",
+    "description": "Looking for a premium, meaningful Father's Day gift that combines engineering, quality time, and a display-worthy result. Sets that feel special, not just another gadget.",
+    "keywords": ["fathers day", "dad gift", "gift for dad", "father", "premium gift", "meaningful present", "engineering gift", "quality time", "special occasion", "dad lego"],
+    "recommendedProducts": ["ford-gt-2022-42154", "red-bull-rb20-42206", "porsche-911-gt3r-42224", "ford-gt40-1966-42223", "mercedes-unimog-42242"],
+    "relatedPersonas": ["gift-buyer", "returning-builder"]
+  },
+  {
+    "id": "weekend-build-project",
+    "name": "Weekend Build Project",
+    "description": "Solo builder looking for a challenging but completable weekend project. Wants something satisfying that takes 4-10 hours — complex enough to be engaging but not so large it takes weeks.",
+    "keywords": ["weekend project", "solo build", "satisfying build", "how long to build", "one day build", "challenge", "relaxing weekend", "build time", "afternoon project", "enjoyable build"],
+    "recommendedProducts": ["porsche-911-gt3r-42224", "ford-gt-2022-42154", "ford-gt40-1966-42223", "bmw-m4-gt3-evo-42226", "corvette-stingray-42217", "mercedes-unimog-42242"],
+    "relatedPersonas": ["returning-builder", "afol-motorsport"]
+  },
+  {
+    "id": "brand-fan-collectible",
+    "name": "Brand Fan Collectible",
+    "description": "Die-hard fan of a specific F1 team or car brand who wants the official licensed LEGO set of their team. Collects by brand loyalty — McLaren fan wants all McLaren sets, Ferrari fan wants the full Scuderia collection.",
+    "keywords": ["mclaren fan", "ferrari fan", "red bull fan", "mercedes f1", "team fan", "f1 collection", "my team", "official licensed", "brand partnership", "collector set", "f1 2024", "team merchandise"],
+    "recommendedProducts": ["mclaren-p1-42172", "mclaren-mcl39-42228", "ferrari-daytona-sp3-42143", "ferrari-sf24-42207", "red-bull-rb20-42206", "mercedes-f1-w14-42171"],
+    "relatedPersonas": ["afol-motorsport", "movie-fan-collector"]
+  },
+  {
+    "id": "f1-season-follower",
+    "name": "F1 Season Follower",
+    "description": "Active F1 fan following the current season who wants to build the car of their favorite driver or team. Motivated by race weekends, driver rivalries, and championship battles.",
+    "keywords": ["f1", "formula 1", "verstappen", "norris", "leclerc", "hamilton", "current season", "2024 f1", "race weekend", "grand prix", "driver", "f1 car", "which f1 set"],
+    "recommendedProducts": ["red-bull-rb20-42206", "mclaren-mcl39-42228", "ferrari-sf24-42207", "mercedes-f1-w14-42171"],
+    "relatedPersonas": ["afol-motorsport"]
+  }
+]
