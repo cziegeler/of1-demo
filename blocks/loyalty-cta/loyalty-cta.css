@@ -1,0 +1,38 @@
+.loyalty-cta {
+  background: linear-gradient(135deg, #006DB7 0%, #004A7C 100%);
+  padding: var(--spacing-3xl) var(--spacing-lg);
+}
+
+.loyalty-cta .loyalty-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.loyalty-cta .loyalty-container h2 {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-black);
+}
+
+.loyalty-cta .loyalty-container p {
+  font-size: var(--font-size-base);
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.loyalty-cta .loyalty-actions a.button {
+  background: var(--color-brand-yellow);
+  color: var(--color-black);
+  border-color: var(--color-brand-yellow);
+  font-weight: var(--font-weight-bold);
+}
+
+.loyalty-cta .loyalty-actions a.button:hover {
+  background: #e6c000;
+  border-color: #e6c000;
+}

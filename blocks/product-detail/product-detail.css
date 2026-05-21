@@ -1,0 +1,111 @@
+.product-detail {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}
+
+.product-detail .pdp-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-2xl);
+  align-items: start;
+}
+
+.product-detail .pdp-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.product-detail .pdp-gallery-main {
+  aspect-ratio: 1;
+  background: var(--color-background-alt);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-lg);
+}
+
+.product-detail .pdp-gallery-main img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.product-detail .pdp-gallery-thumbs {
+  display: flex;
+  gap: var(--spacing-sm);
+  overflow-x: auto;
+}
+
+.product-detail .pdp-gallery-thumbs .thumb {
+  width: 64px;
+  height: 64px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 4px;
+  background: var(--color-background-alt);
+  transition: border-color var(--transition-fast);
+}
+
+.product-detail .pdp-gallery-thumbs .thumb.active {
+  border-color: var(--color-link);
+}
+
+.product-detail .pdp-gallery-thumbs .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-detail .pdp-purchase {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.product-detail .pdp-purchase h1 {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-black);
+}
+
+.product-detail .pdp-meta p {
+  margin-bottom: var(--spacing-xs);
+}
+
+.product-detail .pdp-meta p strong {
+  font-size: var(--font-size-lg);
+}
+
+.product-detail .pdp-description p {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.product-detail .pdp-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.product-detail .pdp-actions a.button.primary {
+  width: 100%;
+  padding: 16px 24px;
+  font-size: var(--font-size-base);
+}
+
+.product-detail .pdp-actions a.button.secondary {
+  width: 100%;
+  padding: 16px 24px;
+  font-size: var(--font-size-base);
+}
+
+@media (max-width: 768px) {
+  .product-detail .pdp-container {
+    grid-template-columns: 1fr;
+  }
+}

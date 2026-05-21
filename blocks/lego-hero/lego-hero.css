@@ -1,0 +1,72 @@
+.lego-hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.lego-hero .lego-hero-container {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.lego-hero .lego-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.lego-hero .lego-hero-bg img,
+.lego-hero .lego-hero-bg picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lego-hero .lego-hero-overlay {
+  position: relative;
+  z-index: 1;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--spacing-3xl) var(--spacing-lg);
+  color: var(--color-white);
+}
+
+.lego-hero .lego-hero-overlay h1,
+.lego-hero .lego-hero-overlay h2 {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-black);
+  margin-bottom: var(--spacing-md);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.lego-hero .lego-hero-overlay p {
+  font-size: var(--font-size-md);
+  margin-bottom: var(--spacing-lg);
+  max-width: 500px;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.lego-hero .lego-hero-actions a.button {
+  background: var(--color-brand-yellow);
+  color: var(--color-black);
+  border-color: var(--color-brand-yellow);
+  font-weight: var(--font-weight-bold);
+}
+
+.lego-hero .lego-hero-actions a.button:hover {
+  background: #e6c000;
+  border-color: #e6c000;
+}
+
+@media (max-width: 768px) {
+  .lego-hero .lego-hero-container {
+    min-height: 300px;
+  }
+
+  .lego-hero .lego-hero-overlay h1,
+  .lego-hero .lego-hero-overlay h2 {
+    font-size: var(--font-size-xl);
+  }
+}

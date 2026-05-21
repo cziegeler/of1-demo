@@ -1,0 +1,40 @@
+.designer-quote {
+  background: var(--color-background-alt);
+  padding: var(--spacing-3xl) var(--spacing-lg);
+}
+
+.designer-quote .quote-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.designer-quote .quote-container blockquote {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--color-text);
+  position: relative;
+}
+
+.designer-quote .quote-container blockquote::before {
+  content: '\201C';
+  font-size: 64px;
+  font-style: normal;
+  color: var(--color-brand-yellow);
+  line-height: 0;
+  position: relative;
+  top: 16px;
+  margin-right: 4px;
+}
+
+.designer-quote .quote-container cite {
+  font-size: var(--font-size-sm);
+  font-style: normal;
+  color: var(--color-text-muted);
+  font-weight: var(--font-weight-medium);
+}
