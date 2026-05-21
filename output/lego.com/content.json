@@ -1,0 +1,87 @@
+{
+  "navigation": {
+    "primary": ["Shop", "Discover", "Help"],
+    "shop": ["All Sets", "SMART Play™", "New", "Exclusives", "Bestsellers", "Offers & sale", "Gift cards", "Coming soon"],
+    "themes": ["SEE ALL THEMES", "LEGO® Animal Crossing™", "Architecture", "LEGO® Art", "Batman™", "Technic™"],
+    "filters": ["Sets by theme", "Age", "Price ranges", "Interests"]
+  },
+  "homepage": {
+    "heroHeadline": "Shop a piece of it",
+    "heroSubHeadline": "Find the perfect set",
+    "promoBar": "FREE Shipping with orders over $35!",
+    "insidersCta": "Join LEGO® Insiders",
+    "quickLinks": ["New", "Exclusive", "Offers", "Art", "Editions", "Disney", "Minifigure Factory"]
+  },
+  "technicThemePage": {
+    "h1": "LEGO® Technic Toys and Sets",
+    "heroBanners": [
+      {
+        "imageUrl": "https://www.lego.com/cdn/cs/set/assets/bltf9499576c4123acd/230608_Design_brief_Technic_Bike_Hero_Std_Mobile.jpg?fit=crop&quality=80&width=1600&dpr=1",
+        "alt": "Technic Motorcycle Hero"
+      },
+      {
+        "imageUrl": "https://www.lego.com/cdn/cs/set/assets/bltefc2e5ee4d417704/Hero_Daytona_OG.jpg?fit=crop&quality=80&width=1600&dpr=1",
+        "alt": "Ferrari Daytona SP3 Hero"
+      },
+      {
+        "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt9a20efc18c700bbd/Hero.jpg?fit=crop&quality=80&width=1600&dpr=1",
+        "alt": "Technic Hero"
+      }
+    ]
+  },
+  "mclarenPDP": {
+    "title": "McLaren P1™",
+    "breadcrumbs": ["Home", "Technic™", "McLaren P1™"],
+    "price": "$449.99",
+    "insidersPoints": "Earn 2925 LEGO® Insiders Points",
+    "heroTagline": "Drive your passion for a legendary hypercar with the new LEGO Technic McLaren P1™.",
+    "sectionHeadlines": [
+      "Our most advanced LEGO® Technic™ Ultimate set yet",
+      "The ultimate driver's car"
+    ],
+    "sectionCopy": [
+      "Drive your passion for a legendary hypercar with the new LEGO Technic McLaren P1™.",
+      "Make a statement when you display this incredible 1:8 scale model."
+    ],
+    "description": "Ignite your love for supercars with this engaging LEGO® Technic™ McLaren P1™ hypercar set for adults. Become immersed in the details as you construct the impressive 1:8 scale model. Then take your time exploring features like the 7-speed gearbox with its shifter drum, the suspension and the V8 piston engine. Admire the adjustable rear wing and the opening doors with their butterfly-style mechanism, before proudly displaying your completed model. Like the real-world car, the LEGO Technic version features its own unique serial number, which gives you access to exclusive online content.",
+    "designerQuotes": [
+      {
+        "quote": "The attention to detail in the McLaren P1™ is simply unsurpassed.",
+        "attribution": "Kasper René Hansen, LEGO® Technic™ Model Designer"
+      },
+      {
+        "quote": "Air likes to move in smooth, sinuous, organic curves, and, inspired by biomimicry and aqua- and aerodynamics, we studied images of hammerhead sharks and falcons in flight.",
+        "attribution": "Simon Lacey, Head of Advanced Engineering, McLaren Automotive"
+      }
+    ],
+    "features": [
+      {"title": "Dihedral doors", "description": "Open and close at a touch"},
+      {"title": "Steering", "description": "Turn to move the wheels"},
+      {"title": "Rear Wing Spoiler", "description": "Adjust the height from road to race"},
+      {"title": "Suspension", "description": "Absorb shock with wishbone elements"},
+      {"title": "V8 Engine", "description": "Watch the pistons pump"},
+      {"title": "Removable Rear Hood", "description": "View the engine beneath"},
+      {"title": "Single Central Exhaust", "description": "Authentically detailed elements"}
+    ],
+    "ctas": {
+      "primary": "Add to Bag",
+      "secondary": "Add to Wish List",
+      "shipping": "FREE Shipping with orders over $35!*"
+    },
+    "crossSellHeadline": "Recommended For You"
+  },
+  "globalCopy": {
+    "shippingBanner": "FREE Shipping with orders over $35!*",
+    "insidersJoin": "Join LEGO® Insiders",
+    "insidersEarn": "Earn {points} LEGO® Insiders Points",
+    "addToBag": "Add to Bag",
+    "addToWishList": "Add to Wish List",
+    "learnMore": "Learn more",
+    "shopNow": "Shop now",
+    "seeAll": "See All",
+    "newBadge": "New",
+    "exclusiveBadge": "Exclusive",
+    "limitWarning": "We restrict the limit a household can buy in order to be fair to all of our fans.",
+    "returnPolicy": "All unopened returns or exchanges must be made within 90 days of receipt of your order."
+  }
+}

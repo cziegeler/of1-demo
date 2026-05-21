@@ -1,0 +1,116 @@
+{
+  "colors": {
+    "brand": {
+      "yellow": "#FFD500",
+      "yellowRgb": "rgb(255, 213, 2)",
+      "red": "#D0021B",
+      "redRgb": "rgb(208, 2, 27)",
+      "blue": "#006DB7",
+      "blueRgb": "rgb(0, 109, 183)",
+      "blueLight": "#D1E8FF",
+      "blueLightRgb": "rgb(209, 232, 255)",
+      "blueLink": "#005AD2",
+      "blueLinkRgb": "rgb(0, 90, 210)"
+    },
+    "neutral": {
+      "black": "#000000",
+      "darkGray": "#141414",
+      "charcoal": "#2C2C2C",
+      "gray": "#757575",
+      "white": "#FFFFFF"
+    },
+    "semantic": {
+      "ctaPrimary": "rgb(208, 2, 27)",
+      "ctaSecondary": "rgb(0, 109, 183)",
+      "badgeNew": "rgb(255, 213, 2)",
+      "insidersGold": "rgb(255, 213, 2)",
+      "textPrimary": "rgb(0, 0, 0)",
+      "textSecondary": "rgb(44, 44, 44)",
+      "textMuted": "rgb(117, 117, 117)",
+      "backgroundPrimary": "rgb(255, 255, 255)",
+      "backgroundPromo": "rgb(209, 232, 255)"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "\"Cera Pro\", sans-serif",
+      "fallback": "sans-serif"
+    },
+    "sizes": {
+      "xs": "12px",
+      "sm": "14px",
+      "md": "16px",
+      "lg": "20px",
+      "xl": "24px",
+      "2xl": "32px",
+      "3xl": "40px"
+    },
+    "weights": {
+      "regular": "400",
+      "medium": "500",
+      "bold": "700"
+    },
+    "designSystem": {
+      "ds-label-md-bold": {"size": "14px", "weight": "700"},
+      "ds-label-md-medium": {"size": "14px", "weight": "500"},
+      "ds-label-md-regular": {"size": "14px", "weight": "400"},
+      "ds-body-md-bold": {"size": "16px", "weight": "700"},
+      "ds-body-md-medium": {"size": "16px", "weight": "500"},
+      "ds-body-md-regular": {"size": "16px", "weight": "400"},
+      "ds-body-xs-regular": {"size": "12px", "weight": "400"},
+      "ds-heading-md": {"size": "20px", "weight": "700"},
+      "ds-heading-2xl": {"size": "32px", "weight": "700"}
+    }
+  },
+  "spacing": {
+    "unit": "8px",
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "32px",
+    "2xl": "48px",
+    "3xl": "64px"
+  },
+  "borders": {
+    "radius": {
+      "none": "0px",
+      "sm": "4px",
+      "md": "8px",
+      "lg": "12px",
+      "pill": "999px"
+    }
+  },
+  "components": {
+    "productCard": {
+      "borderRadius": "8px",
+      "shadow": "0 2px 8px rgba(0,0,0,0.08)",
+      "imageRatio": "1:1",
+      "padding": "16px"
+    },
+    "button": {
+      "primary": {
+        "background": "rgb(208, 2, 27)",
+        "color": "#FFFFFF",
+        "borderRadius": "999px",
+        "fontWeight": "700",
+        "padding": "12px 24px"
+      },
+      "secondary": {
+        "background": "transparent",
+        "color": "rgb(0, 0, 0)",
+        "border": "2px solid rgb(0, 0, 0)",
+        "borderRadius": "999px"
+      }
+    },
+    "badge": {
+      "new": {
+        "background": "rgb(255, 213, 2)",
+        "color": "rgb(20, 20, 20)",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "borderRadius": "4px"
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "marcus",
+    "name": "Marcus",
+    "age": 32,
+    "role": "Motorsport Enthusiast / AFOL",
+    "location": "Austin, TX",
+    "income": "$130K",
+    "description": "Software engineer who watches F1 every weekend and follows supercar channels on YouTube. Owns 4 Technic sets, displays them on a dedicated shelf. LEGO Insiders member with 3,200 points.",
+    "goals": [
+      "Find the next impressive display piece",
+      "Understand engineering details before committing $400+",
+      "Maximize Insiders point earnings",
+      "Stay up to date on new Technic supercar releases"
+    ],
+    "painPoints": [
+      "Hard to choose next build among many options",
+      "Wants engineering detail and authentic features",
+      "Doesn't want to miss limited editions or new drops"
+    ],
+    "keywords": ["engineering", "authentic details", "advanced build", "display piece", "supercar", "F1", "motorsport", "scale model", "Ultimate set", "18+"],
+    "browsingBehavior": {
+      "frequency": "2-3x per week",
+      "entryPoints": ["Technic theme page", "New sets", "Direct PDP links from YouTube reviews"],
+      "avgSessionTime": "8 minutes",
+      "conversionTriggers": ["New release announcement", "Loyalty reward threshold", "Sale on premium sets"]
+    },
+    "preferredProducts": ["42172", "42143", "42206", "42228", "42207", "42171"],
+    "primary": true
+  },
+  {
+    "id": "priya",
+    "name": "Priya",
+    "age": 28,
+    "role": "Gift Buyer",
+    "location": "San Francisco, CA",
+    "income": "$95K",
+    "description": "Product designer buying for partner who loves cars and LEGO. Needs gift guidance — price ranges, difficulty levels, what's new and exclusive.",
+    "goals": [
+      "Find a meaningful gift in the $100-$300 range",
+      "Understand what makes a set special or exclusive",
+      "Get the gift delivered on time"
+    ],
+    "painPoints": [
+      "Overwhelmed by catalog breadth",
+      "Unsure which sets are too advanced or too simple",
+      "Worried about buying a duplicate"
+    ],
+    "keywords": ["gift", "bestseller", "exclusive", "limited edition", "popular", "new release", "for him", "car lover"],
+    "browsingBehavior": {
+      "frequency": "Seasonal (birthdays, holidays)",
+      "entryPoints": ["Google search 'best LEGO sets for adults'", "Gift guide pages", "Bestsellers"],
+      "avgSessionTime": "12 minutes",
+      "conversionTriggers": ["Gift-wrapping available", "Guaranteed delivery date", "Bestseller badge"]
+    },
+    "preferredProducts": ["42154", "42224", "42210"],
+    "primary": false
+  },
+  {
+    "id": "jake",
+    "name": "Jake",
+    "age": 45,
+    "role": "Returning Builder",
+    "location": "Denver, CO",
+    "income": "$110K",
+    "description": "Played with LEGO as a kid, rediscovering the hobby as an adult. Wants a curated entry point — something iconic and rewarding but not overwhelming.",
+    "goals": [
+      "Rediscover the joy of building",
+      "Find an iconic set that feels worth the investment",
+      "Understand what '18+ sets' are about"
+    ],
+    "painPoints": [
+      "Overwhelmed by the sheer number of products",
+      "Doesn't know where to start with adult sets",
+      "Price sensitivity — wants to feel value before going premium"
+    ],
+    "keywords": ["getting started", "iconic", "what's popular", "adult sets", "best value", "first build", "classic cars"],
+    "browsingBehavior": {
+      "frequency": "Monthly exploration",
+      "entryPoints": ["Homepage", "Themes landing page", "Article/video content"],
+      "avgSessionTime": "15 minutes",
+      "conversionTriggers": ["Inspiring lifestyle imagery", "Clear 'start here' recommendation", "Mid-range price point"]
+    },
+    "preferredProducts": ["42154", "42217", "42222"],
+    "primary": false
+  }
+]

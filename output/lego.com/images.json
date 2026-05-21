@@ -1,0 +1,56 @@
+{
+  "logos": {
+    "brandLogo": "https://assets.lego.com/logos/v4.5.0/brand-lego.svg",
+    "mclarenLogo": "https://www.lego.com/cdn/cs/set/assets/blt5c55b6de06cce314/McLaren-logo-neg_300w.png?format=png&height=60&dpr=1"
+  },
+  "socialIcons": {
+    "facebook": "https://www.lego.com/_next/static/images/facebook-272324dea27d9f89..svg",
+    "twitter": "https://www.lego.com/_next/static/images/twitter-5568801232678d2d..svg",
+    "instagram": "https://www.lego.com/_next/static/images/instagram-5a9620c7f4368988..svg",
+    "youtube": "https://www.lego.com/_next/static/images/youtube-15755d90b590e150..svg"
+  },
+  "homepage": {
+    "hero": "https://www.lego.com/cdn/cs/set/assets/blt5d2bb294b01d196f/blt433a97f8f1f48400-Hero_Superhero.jpg?fit=crop&quality=80&width=1600&height=600&dpr=1"
+  },
+  "technicPage": {
+    "heroBanners": [
+      "https://www.lego.com/cdn/cs/set/assets/bltf9499576c4123acd/230608_Design_brief_Technic_Bike_Hero_Std_Mobile.jpg?fit=crop&quality=80&width=1600&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/bltefc2e5ee4d417704/Hero_Daytona_OG.jpg?fit=crop&quality=80&width=1600&dpr=1",
+      "https://www.lego.com/cdn/cs/set/assets/blt9a20efc18c700bbd/Hero.jpg?fit=crop&quality=80&width=1600&dpr=1"
+    ]
+  },
+  "mclarenP1Gallery": [
+    "https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/bltaf11a3ec76040cc5/42172_boxprod_v39_sha.jpg?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/bltbf9cfe344df7d757/42172_Left_01.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/blt47d395554821fc00/42172_Back_01.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/blt943b1189072664b4/42172_Back_02.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/bltec03a4b69b7227b9/42172_Lifestyle_Cons_02.jpg?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/blt9d4b2feba330ec48/42172_Lifestyle_Cons_03.jpg?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/blt571c50910e06b98b/42172_Lifestyle_Build_05.jpg?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/blt8c58f4648aaef646/42172_Lifestyle_Build_07.jpg?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/bltf86deb89553b74a9/42172_Feature1.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/bltf8b49fa1517203f4/42172_Lifestyle_Envr_06.jpg?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/blt7a44e626bf1bb42d/42172_Lifestyle_Envr_07.jpg?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/blt151fb3ff59527911/42172_Box5_v39.png?fit=crop&quality=80&width=800&height=800&dpr=1",
+    "https://www.lego.com/cdn/cs/set/assets/blte8df7ab4020c4d64/42172-202408-PDP-PDP-03-360Explorer-Exhaust.png?fit=crop&quality=80&width=800&dpr=1"
+  ],
+  "mclarenP1OGImage": "https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1",
+  "productThumbnails": {
+    "42172": "https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42143": "https://www.lego.com/cdn/cs/set/assets/bltb862bc546852bd71/42143.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42206": "https://www.lego.com/cdn/cs/set/assets/bltca542b859ace5383/42206_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42228": "https://www.lego.com/cdn/cs/set/assets/bltac01ce3b2335370b/blt94fedcc1daf48b2a-42228_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42207": "https://www.lego.com/cdn/cs/set/assets/blt1dd4e21e38b03edd/42207_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42171": "https://www.lego.com/cdn/cs/set/assets/blt2d0b04908f20c4fb/42171.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42231": "https://www.lego.com/cdn/cs/set/assets/blt79f919a7738e75f9/blt6a94296f3012a30e-42231_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42224": "https://www.lego.com/cdn/cs/set/assets/blt63b0cec2f9e3eccd/42224_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42210": "https://www.lego.com/cdn/cs/set/assets/blt4281f045b5e8888c/42210_Prod.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42154": "https://www.lego.com/cdn/cs/set/assets/blt5014244d8d8dc8ad/42154.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42222": "https://www.lego.com/cdn/cs/set/assets/blt0a9009b95130ef89/42222_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42226": "https://www.lego.com/cdn/cs/set/assets/bltb53d1567fcd649c0/42226_Prod.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42229": "https://www.lego.com/cdn/cs/set/assets/blteef6e0987044f2f6/bltfaea35d387a1edf7-42229_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42217": "https://www.lego.com/cdn/cs/set/assets/blt15a8d15cbeca62b4/42217_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1",
+    "42223": "https://www.lego.com/cdn/cs/set/assets/bltfedfb750ecdecbc5/42223_Prod_en-gb.png?fit=crop&quality=80&width=400&height=400&dpr=1"
+  }
+}
